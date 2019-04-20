@@ -40,3 +40,11 @@ ArduinoBLE\utility\L2CAPSignaling.cpp
 
 Sketch.cpp
 
+System\BatteryService.cpp
+
+System\DIService.cpp
+
+System\LedService.cpp
+
+System\Tc5Timer.cpp
+

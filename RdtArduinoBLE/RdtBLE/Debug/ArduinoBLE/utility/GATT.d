@@ -150,14 +150,14 @@ ArduinoBLE/utility/GATT.d ArduinoBLE/utility/GATT.o: \
  ..\\..\ArduinoCore\include\core/RingBuffer.h \
  ..\\..\ArduinoCore\include\core/USB/USB_host.h \
  ..\\..\ArduinoCore\include\core/USB/samd21_host.h \
- ..\ArduinoBLE/local/BLELocalCharacteristic.h \
- ..\ArduinoBLE/BLEAttribute.h ..\ArduinoBLE/BLEUuid.h \
- ..\ArduinoBLE/BLECharacteristic.h ..\ArduinoBLE/BLEDescriptor.h \
- ..\ArduinoBLE/BLEDescriptor.h ..\ArduinoBLE/utility/BLELinkedList.h \
- ..\ArduinoBLE/local/BLELocalDescriptor.h \
- ..\ArduinoBLE/local/BLELocalService.h ..\ArduinoBLE/BLEProperty.h \
- ../ArduinoBLE/utility/GATT.h ..\ArduinoBLE/BLEService.h \
- ..\ArduinoBLE/BLECharacteristic.h
+ ..\\ArduinoBLE/local/BLELocalCharacteristic.h \
+ ..\\ArduinoBLE/BLEAttribute.h ..\\ArduinoBLE/BLEUuid.h \
+ ..\\ArduinoBLE/BLECharacteristic.h ..\\ArduinoBLE/BLEDescriptor.h \
+ ..\\ArduinoBLE/BLEDescriptor.h ..\\ArduinoBLE/utility/BLELinkedList.h \
+ ..\\ArduinoBLE/local/BLELocalDescriptor.h \
+ ..\\ArduinoBLE/local/BLELocalService.h ..\\ArduinoBLE/BLEProperty.h \
+ ../ArduinoBLE/utility/GATT.h ..\\ArduinoBLE/BLEService.h \
+ ..\\ArduinoBLE/BLECharacteristic.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -461,28 +461,28 @@ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.
 
 ..\\..\ArduinoCore\include\core/USB/samd21_host.h:
 
-..\ArduinoBLE/local/BLELocalCharacteristic.h:
+..\\ArduinoBLE/local/BLELocalCharacteristic.h:
 
-..\ArduinoBLE/BLEAttribute.h:
+..\\ArduinoBLE/BLEAttribute.h:
 
-..\ArduinoBLE/BLEUuid.h:
+..\\ArduinoBLE/BLEUuid.h:
 
-..\ArduinoBLE/BLECharacteristic.h:
+..\\ArduinoBLE/BLECharacteristic.h:
 
-..\ArduinoBLE/BLEDescriptor.h:
+..\\ArduinoBLE/BLEDescriptor.h:
 
-..\ArduinoBLE/BLEDescriptor.h:
+..\\ArduinoBLE/BLEDescriptor.h:
 
-..\ArduinoBLE/utility/BLELinkedList.h:
+..\\ArduinoBLE/utility/BLELinkedList.h:
 
-..\ArduinoBLE/local/BLELocalDescriptor.h:
+..\\ArduinoBLE/local/BLELocalDescriptor.h:
 
-..\ArduinoBLE/local/BLELocalService.h:
+..\\ArduinoBLE/local/BLELocalService.h:
 
-..\ArduinoBLE/BLEProperty.h:
+..\\ArduinoBLE/BLEProperty.h:
 
 ../ArduinoBLE/utility/GATT.h:
 
-..\ArduinoBLE/BLEService.h:
+..\\ArduinoBLE/BLEService.h:
 
-..\ArduinoBLE/BLECharacteristic.h:
+..\\ArduinoBLE/BLECharacteristic.h:

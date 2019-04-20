@@ -150,12 +150,13 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  ..\\..\ArduinoCore\include\core/RingBuffer.h \
  ..\\..\ArduinoCore\include\core/USB/USB_host.h \
  ..\\..\ArduinoCore\include\core/USB/samd21_host.h \
- ..\ArduinoBLE/ArduinoBLE.h ..\ArduinoBLE/local/BLELocalDevice.h \
- ..\ArduinoBLE/BLEDevice.h ..\ArduinoBLE/BLEService.h \
- ..\ArduinoBLE/BLECharacteristic.h ..\ArduinoBLE/BLEDescriptor.h \
- ..\ArduinoBLE/BLEProperty.h ..\ArduinoBLE/BLEStringCharacteristic.h \
- ..\ArduinoBLE/BLETypedCharacteristics.h \
- ..\ArduinoBLE/BLETypedCharacteristic.h
+ ..\\ArduinoBLE/ArduinoBLE.h ..\\ArduinoBLE/local/BLELocalDevice.h \
+ ..\\ArduinoBLE/BLEDevice.h ..\\ArduinoBLE/BLEService.h \
+ ..\\ArduinoBLE/BLECharacteristic.h ..\\ArduinoBLE/BLEDescriptor.h \
+ ..\\ArduinoBLE/BLEProperty.h ..\\ArduinoBLE/BLEStringCharacteristic.h \
+ ..\\ArduinoBLE/BLETypedCharacteristics.h \
+ ..\\ArduinoBLE/BLETypedCharacteristic.h ..\\System/LedService.h \
+ ..\\System/DIService.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -459,22 +460,26 @@ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.
 
 ..\\..\ArduinoCore\include\core/USB/samd21_host.h:
 
-..\ArduinoBLE/ArduinoBLE.h:
+..\\ArduinoBLE/ArduinoBLE.h:
 
-..\ArduinoBLE/local/BLELocalDevice.h:
+..\\ArduinoBLE/local/BLELocalDevice.h:
 
-..\ArduinoBLE/BLEDevice.h:
+..\\ArduinoBLE/BLEDevice.h:
 
-..\ArduinoBLE/BLEService.h:
+..\\ArduinoBLE/BLEService.h:
 
-..\ArduinoBLE/BLECharacteristic.h:
+..\\ArduinoBLE/BLECharacteristic.h:
 
-..\ArduinoBLE/BLEDescriptor.h:
+..\\ArduinoBLE/BLEDescriptor.h:
 
-..\ArduinoBLE/BLEProperty.h:
+..\\ArduinoBLE/BLEProperty.h:
 
-..\ArduinoBLE/BLEStringCharacteristic.h:
+..\\ArduinoBLE/BLEStringCharacteristic.h:
 
-..\ArduinoBLE/BLETypedCharacteristics.h:
+..\\ArduinoBLE/BLETypedCharacteristics.h:
 
-..\ArduinoBLE/BLETypedCharacteristic.h:
+..\\ArduinoBLE/BLETypedCharacteristic.h:
+
+..\\System/LedService.h:
+
+..\\System/DIService.h:

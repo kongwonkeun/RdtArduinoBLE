@@ -1,5 +1,5 @@
 ArduinoBLE/utility/GAP.d ArduinoBLE/utility/GAP.o: \
- ../ArduinoBLE/utility/GAP.cpp ..\ArduinoBLE/BLEUuid.h \
+ ../ArduinoBLE/utility/GAP.cpp ..\\ArduinoBLE/BLEUuid.h \
  e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
  e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
  e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h \
@@ -153,7 +153,7 @@ ArduinoBLE/utility/GAP.d ArduinoBLE/utility/GAP.o: \
  ..\\..\ArduinoCore\include\core/USB/samd21_host.h \
  ../ArduinoBLE/utility/GAP.h
 
-..\ArduinoBLE/BLEUuid.h:
+..\\ArduinoBLE/BLEUuid.h:
 
 e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h:
 

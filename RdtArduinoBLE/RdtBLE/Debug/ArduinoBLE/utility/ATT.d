@@ -151,15 +151,15 @@ ArduinoBLE/utility/ATT.d ArduinoBLE/utility/ATT.o: \
  ..\\..\ArduinoCore\include\core/USB/USB_host.h \
  ..\\..\ArduinoCore\include\core/USB/samd21_host.h \
  ../ArduinoBLE/utility/HCI.h ../ArduinoBLE/utility/GATT.h \
- ..\ArduinoBLE/utility/BLELinkedList.h \
- ..\ArduinoBLE/local/BLELocalService.h ..\ArduinoBLE/BLEAttribute.h \
- ..\ArduinoBLE/BLEUuid.h ..\ArduinoBLE/BLECharacteristic.h \
- ..\ArduinoBLE/BLEDescriptor.h \
- ..\ArduinoBLE/local/BLELocalCharacteristic.h \
- ..\ArduinoBLE/BLEDescriptor.h ..\ArduinoBLE/BLEService.h \
- ..\ArduinoBLE/BLECharacteristic.h \
- ..\ArduinoBLE/local/BLELocalDescriptor.h ..\ArduinoBLE/BLEProperty.h \
- ../ArduinoBLE/utility/ATT.h ..\ArduinoBLE/BLEDevice.h
+ ..\\ArduinoBLE/utility/BLELinkedList.h \
+ ..\\ArduinoBLE/local/BLELocalService.h ..\\ArduinoBLE/BLEAttribute.h \
+ ..\\ArduinoBLE/BLEUuid.h ..\\ArduinoBLE/BLECharacteristic.h \
+ ..\\ArduinoBLE/BLEDescriptor.h \
+ ..\\ArduinoBLE/local/BLELocalCharacteristic.h \
+ ..\\ArduinoBLE/BLEDescriptor.h ..\\ArduinoBLE/BLEService.h \
+ ..\\ArduinoBLE/BLECharacteristic.h \
+ ..\\ArduinoBLE/local/BLELocalDescriptor.h ..\\ArduinoBLE/BLEProperty.h \
+ ../ArduinoBLE/utility/ATT.h ..\\ArduinoBLE/BLEDevice.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -467,30 +467,30 @@ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.
 
 ../ArduinoBLE/utility/GATT.h:
 
-..\ArduinoBLE/utility/BLELinkedList.h:
+..\\ArduinoBLE/utility/BLELinkedList.h:
 
-..\ArduinoBLE/local/BLELocalService.h:
+..\\ArduinoBLE/local/BLELocalService.h:
 
-..\ArduinoBLE/BLEAttribute.h:
+..\\ArduinoBLE/BLEAttribute.h:
 
-..\ArduinoBLE/BLEUuid.h:
+..\\ArduinoBLE/BLEUuid.h:
 
-..\ArduinoBLE/BLECharacteristic.h:
+..\\ArduinoBLE/BLECharacteristic.h:
 
-..\ArduinoBLE/BLEDescriptor.h:
+..\\ArduinoBLE/BLEDescriptor.h:
 
-..\ArduinoBLE/local/BLELocalCharacteristic.h:
+..\\ArduinoBLE/local/BLELocalCharacteristic.h:
 
-..\ArduinoBLE/BLEDescriptor.h:
+..\\ArduinoBLE/BLEDescriptor.h:
 
-..\ArduinoBLE/BLEService.h:
+..\\ArduinoBLE/BLEService.h:
 
-..\ArduinoBLE/BLECharacteristic.h:
+..\\ArduinoBLE/BLECharacteristic.h:
 
-..\ArduinoBLE/local/BLELocalDescriptor.h:
+..\\ArduinoBLE/local/BLELocalDescriptor.h:
 
-..\ArduinoBLE/BLEProperty.h:
+..\\ArduinoBLE/BLEProperty.h:
 
 ../ArduinoBLE/utility/ATT.h:
 
-..\ArduinoBLE/BLEDevice.h:
+..\\ArduinoBLE/BLEDevice.h:

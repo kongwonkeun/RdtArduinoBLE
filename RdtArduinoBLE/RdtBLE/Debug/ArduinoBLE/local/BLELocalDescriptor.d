@@ -152,8 +152,8 @@ ArduinoBLE/local/BLELocalDescriptor.d \
  ..\\..\ArduinoCore\include\core/RingBuffer.h \
  ..\\..\ArduinoCore\include\core/USB/USB_host.h \
  ..\\..\ArduinoCore\include\core/USB/samd21_host.h \
- ../ArduinoBLE/local/BLELocalDescriptor.h ..\ArduinoBLE/BLEAttribute.h \
- ..\ArduinoBLE/BLEUuid.h
+ ../ArduinoBLE/local/BLELocalDescriptor.h ..\\ArduinoBLE/BLEAttribute.h \
+ ..\\ArduinoBLE/BLEUuid.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -459,6 +459,6 @@ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.
 
 ../ArduinoBLE/local/BLELocalDescriptor.h:
 
-..\ArduinoBLE/BLEAttribute.h:
+..\\ArduinoBLE/BLEAttribute.h:
 
-..\ArduinoBLE/BLEUuid.h:
+..\\ArduinoBLE/BLEUuid.h:

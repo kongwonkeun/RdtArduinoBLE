@@ -151,7 +151,7 @@ ArduinoBLE/BLEDevice.d ArduinoBLE/BLEDevice.o: \
  ..\\..\ArduinoCore\include\core/RingBuffer.h \
  ..\\..\ArduinoCore\include\core/USB/USB_host.h \
  ..\\..\ArduinoCore\include\core/USB/samd21_host.h \
- ..\ArduinoBLE/BLEDevice.h ../ArduinoBLE/utility/HCI.h \
+ ..\\ArduinoBLE/BLEDevice.h ../ArduinoBLE/utility/HCI.h \
  ../ArduinoBLE/BLEDevice.h
 
 ../ArduinoBLE/utility/ATT.h:
@@ -458,7 +458,7 @@ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.
 
 ..\\..\ArduinoCore\include\core/USB/samd21_host.h:
 
-..\ArduinoBLE/BLEDevice.h:
+..\\ArduinoBLE/BLEDevice.h:
 
 ../ArduinoBLE/utility/HCI.h:
 
