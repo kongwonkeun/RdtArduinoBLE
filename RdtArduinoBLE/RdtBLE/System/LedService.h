@@ -33,8 +33,8 @@ extern LedService x_ledService;
 //
 // EVENT HANDLER
 //
-void handleConnectEvent(BLEDevice central);
-void handleDisconnectEvent(BLEDevice central);
-void handleCharacteristicWrittenEvent(BLEDevice central, BLECharacteristic characteristic);
+void handle_LedConnectEvent(BLEDevice central);
+void handle_LedDisconnectEvent(BLEDevice central);
+void handle_LedCharacteristicWrittenEvent(BLEDevice central, BLECharacteristic characteristic);
 
 #endif /* LEDSERVICE_H_ */

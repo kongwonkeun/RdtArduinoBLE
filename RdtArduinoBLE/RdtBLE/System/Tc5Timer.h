@@ -8,6 +8,7 @@
 #ifndef TC5TIMER_H_
 #define TC5TIMER_H_
 
+#include <Arduino.h>
 #include "LinkedList.h"
 
 class Tc5Timer

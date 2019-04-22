@@ -29,9 +29,9 @@ void LedService::setup()
     m_ledService->addCharacteristic(*m_buttonStateCharacteristic);
     BLE.addService(*m_ledService);
     //
-    BLE.setEventHandler(BLEConnected, handleConnectEvent);
-    BLE.setEventHandler(BLEDisconnected, handleDisconnectEvent);
-    m_ledControlCharacteristic->setEventHandler(BLEWritten, handleCharacteristicWrittenEvent);
+    BLE.setEventHandler(BLEConnected, handle_LedConnectEvent);
+    BLE.setEventHandler(BLEDisconnected, handle_LedDisconnectEvent);
+    m_ledControlCharacteristic->setEventHandler(BLEWritten, handle_LedCharacteristicWrittenEvent);
     //
     m_ledControlCharacteristic->writeValue(0);
     m_buttonStateCharacteristic->writeValue(0);
@@ -83,19 +83,19 @@ LedService x_ledService;
 //
 // EVENT HANDLER
 //
-void handleConnectEvent(BLEDevice central)
+void handle_LedConnectEvent(BLEDevice central)
 {
     Serial.print("central connected event: ");
     Serial.println(central.address());
 }
 
-void handleDisconnectEvent(BLEDevice central)
+void handle_LedDisconnectEvent(BLEDevice central)
 {
     Serial.print("central disconnected event: ");
     Serial.println(central.address());
 }
 
-void handleCharacteristicWrittenEvent(BLEDevice central, BLECharacteristic characteristic)
+void handle_LedCharacteristicWrittenEvent(BLEDevice central, BLECharacteristic characteristic)
 {
     Serial.print("characteristic written event: ");
     if (x_ledService.getValue()) {

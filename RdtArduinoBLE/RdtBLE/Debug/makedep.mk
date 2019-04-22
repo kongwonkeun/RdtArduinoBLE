@@ -42,6 +42,8 @@ Sketch.cpp
 
 System\BatteryService.cpp
 
+System\CSCService.cpp
+
 System\DIService.cpp
 
 System\LedService.cpp

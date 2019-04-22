@@ -65,6 +65,7 @@ C_SRCS +=  \
 ../ArduinoBLE/utility/L2CAPSignaling.cpp \
 ../Sketch.cpp \
 ../System/BatteryService.cpp \
+../System/CSCService.cpp \
 ../System/DIService.cpp \
 ../System/LedService.cpp \
 ../System/Tc5Timer.cpp
@@ -97,6 +98,7 @@ ArduinoBLE/utility/HCIUartTransport.o \
 ArduinoBLE/utility/L2CAPSignaling.o \
 Sketch.o \
 System/BatteryService.o \
+System/CSCService.o \
 System/DIService.o \
 System/LedService.o \
 System/Tc5Timer.o
@@ -122,6 +124,7 @@ ArduinoBLE/utility/HCIUartTransport.o \
 ArduinoBLE/utility/L2CAPSignaling.o \
 Sketch.o \
 System/BatteryService.o \
+System/CSCService.o \
 System/DIService.o \
 System/LedService.o \
 System/Tc5Timer.o
@@ -147,6 +150,7 @@ ArduinoBLE/utility/HCIUartTransport.d \
 ArduinoBLE/utility/L2CAPSignaling.d \
 Sketch.d \
 System/BatteryService.d \
+System/CSCService.d \
 System/DIService.d \
 System/LedService.d \
 System/Tc5Timer.d
@@ -172,6 +176,7 @@ ArduinoBLE/utility/HCIUartTransport.d \
 ArduinoBLE/utility/L2CAPSignaling.d \
 Sketch.d \
 System/BatteryService.d \
+System/CSCService.d \
 System/DIService.d \
 System/LedService.d \
 System/Tc5Timer.d
@@ -329,6 +334,13 @@ ArduinoBLE/utility/L2CAPSignaling.o: ../ArduinoBLE/utility/L2CAPSignaling.cpp
 	
 
 System/BatteryService.o: ../System/BatteryService.cpp
+	@echo Building file: $<
+	@echo Invoking: ARM/GNU C Compiler : 6.3.1
+	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\arm\arm-gnu-toolchain\bin\arm-none-eabi-g++.exe$(QUOTE) -mthumb -D__SAMD21G18A__ -DDEBUG -DF_CPU=48000000L -DARDUINO=10809 -DARDUINO_SAMD_MKRWIFI1010 -DARDUINO_ARCH_SAMD -DUSB_VID=0x2341 -DUSB_PID=0x8054 -DUSB_PRODUCT="\"Arduino MKR WiFi 1010\"" -DUSB_MANUFACTURER="\"Arduino LLC\"" -DUSBCON  -I"E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include" -I"E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include" -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants" -I"..\\..\ArduinoCore\include\core\avr" -I"..\\..\ArduinoCore\include\core\samd21" -I"..\\..\ArduinoCore\include\core\USB" -I"..\\..\ArduinoCore\include\core\samd21\include" -I"..\\..\ArduinoCore\include\core\samd21\include\component" -I"..\\..\ArduinoCore\include\core\samd21\include\instance" -I"..\\..\ArduinoCore\include\core\samd21\include\pio" -I"..\\ArduinoBLE" -I"..\\System"  -Os -fno-threadsafe-statics -fno-exceptions -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -g3 -w -mcpu=cortex-m0plus -c -std=gnu++11 --param max-inline-insns-single=500 -nostdlib -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
+System/CSCService.o: ../System/CSCService.cpp
 	@echo Building file: $<
 	@echo Invoking: ARM/GNU C Compiler : 6.3.1
 	$(QUOTE)E:\AtmelStudio7\7.0\toolchain\arm\arm-gnu-toolchain\bin\arm-none-eabi-g++.exe$(QUOTE) -mthumb -D__SAMD21G18A__ -DDEBUG -DF_CPU=48000000L -DARDUINO=10809 -DARDUINO_SAMD_MKRWIFI1010 -DARDUINO_ARCH_SAMD -DUSB_VID=0x2341 -DUSB_PID=0x8054 -DUSB_PRODUCT="\"Arduino MKR WiFi 1010\"" -DUSB_MANUFACTURER="\"Arduino LLC\"" -DUSBCON  -I"E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include" -I"E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include" -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants" -I"..\\..\ArduinoCore\include\core\avr" -I"..\\..\ArduinoCore\include\core\samd21" -I"..\\..\ArduinoCore\include\core\USB" -I"..\\..\ArduinoCore\include\core\samd21\include" -I"..\\..\ArduinoCore\include\core\samd21\include\component" -I"..\\..\ArduinoCore\include\core\samd21\include\instance" -I"..\\..\ArduinoCore\include\core\samd21\include\pio" -I"..\\ArduinoBLE" -I"..\\System"  -Os -fno-threadsafe-statics -fno-exceptions -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -g3 -w -mcpu=cortex-m0plus -c -std=gnu++11 --param max-inline-insns-single=500 -nostdlib -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 

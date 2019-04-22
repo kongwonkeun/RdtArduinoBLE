@@ -9,6 +9,7 @@
 #include "ArduinoBLE.h"
 #include "LedService.h"
 #include "DIService.h"
+#include "CSCService.h"
 
 void setup()
 {
@@ -20,8 +21,9 @@ void setup()
         while (1);
     }
     
-    x_ledService.setup();
+    //x_ledService.setup();
     x_diService.setup();
+    x_cscService.setup();
     
     Serial.println("waiting for BLE connection");
 }
@@ -35,8 +37,9 @@ void loop()
         
         while (central.connected())
         {
-            x_ledService.runService();
+            //x_ledService.runService();
             x_diService.runService();
+            x_cscService.runService();
         }
         
         Serial.print("disconnected from central: ");

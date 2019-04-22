@@ -1,5 +1,5 @@
-Sketch.d Sketch.o: .././Sketch.cpp \
- ..\\..\ArduinoCore\include\core/Arduino.h \
+System/CSCService.d System/CSCService.o: ../System/CSCService.cpp \
+ ../System/Tc5Timer.h ..\\..\ArduinoCore\include\core/Arduino.h \
  e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h \
  e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
  e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
@@ -149,14 +149,16 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  ..\\..\ArduinoCore\include\core/Stream.h \
  ..\\..\ArduinoCore\include\core/RingBuffer.h \
  ..\\..\ArduinoCore\include\core/USB/USB_host.h \
- ..\\..\ArduinoCore\include\core/USB/samd21_host.h \
- ..\\ArduinoBLE/ArduinoBLE.h ..\\ArduinoBLE/local/BLELocalDevice.h \
- ..\\ArduinoBLE/BLEDevice.h ..\\ArduinoBLE/BLEService.h \
- ..\\ArduinoBLE/BLECharacteristic.h ..\\ArduinoBLE/BLEDescriptor.h \
- ..\\ArduinoBLE/BLEProperty.h ..\\ArduinoBLE/BLEStringCharacteristic.h \
+ ..\\..\ArduinoCore\include\core/USB/samd21_host.h ../System/LinkedList.h \
+ ../System/CSCService.h ..\\ArduinoBLE/ArduinoBLE.h \
+ ..\\ArduinoBLE/local/BLELocalDevice.h ..\\ArduinoBLE/BLEDevice.h \
+ ..\\ArduinoBLE/BLEService.h ..\\ArduinoBLE/BLECharacteristic.h \
+ ..\\ArduinoBLE/BLEDescriptor.h ..\\ArduinoBLE/BLEProperty.h \
+ ..\\ArduinoBLE/BLEStringCharacteristic.h \
  ..\\ArduinoBLE/BLETypedCharacteristics.h \
- ..\\ArduinoBLE/BLETypedCharacteristic.h ..\\System/LedService.h \
- ..\\System/DIService.h ..\\System/CSCService.h
+ ..\\ArduinoBLE/BLETypedCharacteristic.h
+
+../System/Tc5Timer.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -460,6 +462,10 @@ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.
 
 ..\\..\ArduinoCore\include\core/USB/samd21_host.h:
 
+../System/LinkedList.h:
+
+../System/CSCService.h:
+
 ..\\ArduinoBLE/ArduinoBLE.h:
 
 ..\\ArduinoBLE/local/BLELocalDevice.h:
@@ -479,9 +485,3 @@ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.
 ..\\ArduinoBLE/BLETypedCharacteristics.h:
 
 ..\\ArduinoBLE/BLETypedCharacteristic.h:
-
-..\\System/LedService.h:
-
-..\\System/DIService.h:
-
-..\\System/CSCService.h:
