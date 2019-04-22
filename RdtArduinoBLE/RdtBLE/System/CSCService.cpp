@@ -12,7 +12,8 @@ CSCService::CSCService() :
 m_flags(0), m_cumulativeWheelRevolution(0), m_lastWheelEventTime(0),
 m_cumulativeCrankRevolution(0), m_lastCrankEventTime(0)
 {
-    x_tc5_tick.begin(1000); // 1 sec tick
+    m_notify = false;
+    x_tc5_tick.begin(1000000); // 1 sec tick
 }
 
 CSCService::~CSCService()
@@ -23,7 +24,7 @@ CSCService::~CSCService()
 void CSCService::setup()
 {
     m_cscService = new BLEService("1816");
-    m_cscMeasurement = new BLECharacteristic("2A5B", BLENotify, 11, true);
+    m_cscMeasurement = new BLECharacteristic("2A5B", BLENotify, 7, true); // 11 -> 7
     m_cscFeature = new BLEWordCharacteristic("2A5C", BLERead);
     m_sensorLocation = new BLEByteCharacteristic("2A5D", BLERead);
     BLE.setLocalName("K-Roller");
@@ -47,6 +48,12 @@ void CSCService::runService()
         x_tc5_tick.start();
     }
     BLE.poll();
+    
+   if (m_flags == 0x01 && m_notify) {
+       m_notify = false;
+       Serial.print("N");
+       notifyMeasurementData();
+   }
 }
 
 void CSCService::setMeasurementData()
@@ -92,8 +99,9 @@ CSCService x_cscService;
 //
 void handle_CSCNotification()
 {
-    Serial.print("T");
-    x_cscService.notifyMeasurementData();
+    //Serial.print("T");
+    x_cscService.m_notify = true;
+    //x_cscService.notifyMeasurementData();
 }
 
 /* EOF */

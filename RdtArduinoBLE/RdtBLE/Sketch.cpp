@@ -21,9 +21,9 @@ void setup()
         while (1);
     }
     
-    //x_ledService.setup();
-    x_diService.setup();
     x_cscService.setup();
+    x_diService.setup();
+    //x_ledService.setup();
     
     Serial.println("waiting for BLE connection");
 }
@@ -37,9 +37,9 @@ void loop()
         
         while (central.connected())
         {
-            //x_ledService.runService();
-            x_diService.runService();
             x_cscService.runService();
+            x_diService.runService();
+            //x_ledService.runService();
         }
         
         Serial.print("disconnected from central: ");

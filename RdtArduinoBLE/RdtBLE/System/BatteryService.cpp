@@ -50,4 +50,6 @@ void BatteryService::end()
     delete m_batteryLevelCharacteristic;
 }
 
+BatteryService x_batteryService;
+
 /* EOF */

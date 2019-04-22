@@ -1,98 +1,98 @@
 src/core/delay.d src/core/delay.o: ../src/core/delay.c \
  ..\include\core/delay.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_newlib_version.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_intsup.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_stdint.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_newlib_version.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_intsup.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_stdint.h \
  ..\include\variants/variant.h ..\include\core/WVariant.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/sam.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/samd21g18a.h \
- E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/core_cm0plus.h \
- E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_compiler.h \
- E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/system_samd21.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/ac.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/adc.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/dac.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/dmac.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/dsu.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/eic.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/evsys.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/gclk.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/hmatrixb.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/i2s.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/mtb.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/nvmctrl.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/pac.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/pm.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/port.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/rtc.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/sercom.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/sysctrl.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/tc.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/tcc.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/usb.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/wdt.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/ac.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/adc.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/dac.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/dmac.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/dsu.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/eic.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/evsys.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/gclk.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sbmatrix.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/i2s.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/mtb.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/nvmctrl.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/pac0.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/pac1.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/pac2.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/pm.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/port.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/ptc.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/rtc.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom0.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom1.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom2.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom3.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom4.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom5.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sysctrl.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tc3.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tc4.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tc5.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tcc0.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tcc1.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tcc2.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/usb.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/wdt.h \
- E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/pio/samd21g18a.h \
+ ..\include\core\samd21/sam.h ..\include\core\samd21/samd.h \
+ ..\include\core/samd21/include/samd21.h \
+ ..\include\core/samd21/include/samd21g18a.h \
+ E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/core_cm0plus.h \
+ E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_compiler.h \
+ E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h \
+ ..\include\core/samd21/include/system_samd21.h \
+ ..\include\core/samd21/include/component/ac.h \
+ ..\include\core/samd21/include/component/adc.h \
+ ..\include\core/samd21/include/component/dac.h \
+ ..\include\core/samd21/include/component/dmac.h \
+ ..\include\core/samd21/include/component/dsu.h \
+ ..\include\core/samd21/include/component/eic.h \
+ ..\include\core/samd21/include/component/evsys.h \
+ ..\include\core/samd21/include/component/gclk.h \
+ ..\include\core/samd21/include/component/hmatrixb.h \
+ ..\include\core/samd21/include/component/i2s.h \
+ ..\include\core/samd21/include/component/mtb.h \
+ ..\include\core/samd21/include/component/nvmctrl.h \
+ ..\include\core/samd21/include/component/pac.h \
+ ..\include\core/samd21/include/component/pm.h \
+ ..\include\core/samd21/include/component/port.h \
+ ..\include\core/samd21/include/component/rtc.h \
+ ..\include\core/samd21/include/component/sercom.h \
+ ..\include\core/samd21/include/component/sysctrl.h \
+ ..\include\core/samd21/include/component/tc.h \
+ ..\include\core/samd21/include/component/tcc.h \
+ ..\include\core/samd21/include/component/usb.h \
+ ..\include\core/samd21/include/component/wdt.h \
+ ..\include\core/samd21/include/instance/ac.h \
+ ..\include\core/samd21/include/instance/adc.h \
+ ..\include\core/samd21/include/instance/dac.h \
+ ..\include\core/samd21/include/instance/dmac.h \
+ ..\include\core/samd21/include/instance/dsu.h \
+ ..\include\core/samd21/include/instance/eic.h \
+ ..\include\core/samd21/include/instance/evsys.h \
+ ..\include\core/samd21/include/instance/gclk.h \
+ ..\include\core/samd21/include/instance/sbmatrix.h \
+ ..\include\core/samd21/include/instance/i2s.h \
+ ..\include\core/samd21/include/instance/mtb.h \
+ ..\include\core/samd21/include/instance/nvmctrl.h \
+ ..\include\core/samd21/include/instance/pac0.h \
+ ..\include\core/samd21/include/instance/pac1.h \
+ ..\include\core/samd21/include/instance/pac2.h \
+ ..\include\core/samd21/include/instance/pm.h \
+ ..\include\core/samd21/include/instance/port.h \
+ ..\include\core/samd21/include/instance/rtc.h \
+ ..\include\core/samd21/include/instance/sercom0.h \
+ ..\include\core/samd21/include/instance/sercom1.h \
+ ..\include\core/samd21/include/instance/sercom2.h \
+ ..\include\core/samd21/include/instance/sercom3.h \
+ ..\include\core/samd21/include/instance/sercom4.h \
+ ..\include\core/samd21/include/instance/sercom5.h \
+ ..\include\core/samd21/include/instance/sysctrl.h \
+ ..\include\core/samd21/include/instance/tc3.h \
+ ..\include\core/samd21/include/instance/tc4.h \
+ ..\include\core/samd21/include/instance/tc5.h \
+ ..\include\core/samd21/include/instance/tcc0.h \
+ ..\include\core/samd21/include/instance/tcc1.h \
+ ..\include\core/samd21/include/instance/tcc2.h \
+ ..\include\core/samd21/include/instance/usb.h \
+ ..\include\core/samd21/include/instance/wdt.h \
+ ..\include\core/samd21/include/pio/samd21g18a.h \
  ..\include\core/Arduino.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\config.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\reent.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_types.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\alloca.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\xlocale.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\string.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\config.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\reent.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_types.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\alloca.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\xlocale.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\string.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h \
  ..\include\core/avr/pgmspace.h \
- e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttypes.h \
+ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttypes.h \
  ..\include\core/avr/interrupt.h ..\include\core/avr/io.h \
  ..\include\core/binary.h ..\include\core/itoa.h \
  ..\include\core/wiring_constants.h ..\include\core/delay.h \
@@ -105,193 +105,195 @@ src/core/delay.d src/core/delay.o: ../src/core/delay.c \
 
 ..\include\core/delay.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_newlib_version.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_newlib_version.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_intsup.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_intsup.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_stdint.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_stdint.h:
 
 ..\include\variants/variant.h:
 
 ..\include\core/WVariant.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/sam.h:
+..\include\core\samd21/sam.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/samd21g18a.h:
+..\include\core\samd21/samd.h:
 
-E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/core_cm0plus.h:
+..\include\core/samd21/include/samd21.h:
 
-E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_compiler.h:
+..\include\core/samd21/include/samd21g18a.h:
 
-E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h:
+E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/core_cm0plus.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/system_samd21.h:
+E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_compiler.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/ac.h:
+E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/adc.h:
+..\include\core/samd21/include/system_samd21.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/dac.h:
+..\include\core/samd21/include/component/ac.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/dmac.h:
+..\include\core/samd21/include/component/adc.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/dsu.h:
+..\include\core/samd21/include/component/dac.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/eic.h:
+..\include\core/samd21/include/component/dmac.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/evsys.h:
+..\include\core/samd21/include/component/dsu.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/gclk.h:
+..\include\core/samd21/include/component/eic.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/hmatrixb.h:
+..\include\core/samd21/include/component/evsys.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/i2s.h:
+..\include\core/samd21/include/component/gclk.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/mtb.h:
+..\include\core/samd21/include/component/hmatrixb.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/nvmctrl.h:
+..\include\core/samd21/include/component/i2s.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/pac.h:
+..\include\core/samd21/include/component/mtb.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/pm.h:
+..\include\core/samd21/include/component/nvmctrl.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/port.h:
+..\include\core/samd21/include/component/pac.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/rtc.h:
+..\include\core/samd21/include/component/pm.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/sercom.h:
+..\include\core/samd21/include/component/port.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/sysctrl.h:
+..\include\core/samd21/include/component/rtc.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/tc.h:
+..\include\core/samd21/include/component/sercom.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/tcc.h:
+..\include\core/samd21/include/component/sysctrl.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/usb.h:
+..\include\core/samd21/include/component/tc.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/component/wdt.h:
+..\include\core/samd21/include/component/tcc.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/ac.h:
+..\include\core/samd21/include/component/usb.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/adc.h:
+..\include\core/samd21/include/component/wdt.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/dac.h:
+..\include\core/samd21/include/instance/ac.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/dmac.h:
+..\include\core/samd21/include/instance/adc.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/dsu.h:
+..\include\core/samd21/include/instance/dac.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/eic.h:
+..\include\core/samd21/include/instance/dmac.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/evsys.h:
+..\include\core/samd21/include/instance/dsu.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/gclk.h:
+..\include\core/samd21/include/instance/eic.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sbmatrix.h:
+..\include\core/samd21/include/instance/evsys.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/i2s.h:
+..\include\core/samd21/include/instance/gclk.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/mtb.h:
+..\include\core/samd21/include/instance/sbmatrix.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/nvmctrl.h:
+..\include\core/samd21/include/instance/i2s.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/pac0.h:
+..\include\core/samd21/include/instance/mtb.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/pac1.h:
+..\include\core/samd21/include/instance/nvmctrl.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/pac2.h:
+..\include\core/samd21/include/instance/pac0.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/pm.h:
+..\include\core/samd21/include/instance/pac1.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/port.h:
+..\include\core/samd21/include/instance/pac2.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/ptc.h:
+..\include\core/samd21/include/instance/pm.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/rtc.h:
+..\include\core/samd21/include/instance/port.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom0.h:
+..\include\core/samd21/include/instance/rtc.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom1.h:
+..\include\core/samd21/include/instance/sercom0.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom2.h:
+..\include\core/samd21/include/instance/sercom1.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom3.h:
+..\include\core/samd21/include/instance/sercom2.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom4.h:
+..\include\core/samd21/include/instance/sercom3.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sercom5.h:
+..\include\core/samd21/include/instance/sercom4.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/sysctrl.h:
+..\include\core/samd21/include/instance/sercom5.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tc3.h:
+..\include\core/samd21/include/instance/sysctrl.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tc4.h:
+..\include\core/samd21/include/instance/tc3.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tc5.h:
+..\include\core/samd21/include/instance/tc4.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tcc0.h:
+..\include\core/samd21/include/instance/tc5.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tcc1.h:
+..\include\core/samd21/include/instance/tcc0.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/tcc2.h:
+..\include\core/samd21/include/instance/tcc1.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/usb.h:
+..\include\core/samd21/include/instance/tcc2.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/instance/wdt.h:
+..\include\core/samd21/include/instance/usb.h:
 
-E:\AtmelStudio7\7.0\Packs\Atmel\SAMD21_DFP\1.3.331\samd21a\include/pio/samd21g18a.h:
+..\include\core/samd21/include/instance/wdt.h:
+
+..\include\core/samd21/include/pio/samd21g18a.h:
 
 ..\include\core/Arduino.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\config.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\config.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\reent.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\reent.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_types.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_types.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\alloca.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\alloca.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\xlocale.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\xlocale.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\string.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\string.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h:
 
 ..\include\core/avr/pgmspace.h:
 
-e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttypes.h:
+e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttypes.h:
 
 ..\include\core/avr/interrupt.h:
 

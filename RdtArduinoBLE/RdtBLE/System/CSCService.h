@@ -20,6 +20,7 @@ public:
     void setMeasurementData();
     void notifyMeasurementData();
     void end();
+    bool m_notify;
 private:
     uint8_t  m_flags;
     uint32_t m_cumulativeWheelRevolution;
