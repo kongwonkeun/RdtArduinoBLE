@@ -10,6 +10,10 @@
 
 #include "ArduinoBLE.h"
 
+extern uint32_t x_speed;
+extern uint32_t x_distance;
+extern uint32_t x_wheel;
+
 class CSCService
 {
 public:

@@ -23,7 +23,7 @@ void LedService::setup()
     m_ledService = new BLEService("19B10010-E8F2-537E-4F6C-D104768A1214");
     m_ledControlCharacteristic  = new BLEByteCharacteristic("19B10011-E8F2-537E-4F6C-D104768A1214", BLERead | BLEWrite);
     m_buttonStateCharacteristic = new BLEByteCharacteristic("19B10012-E8F2-537E-4F6C-D104768A1214", BLERead | BLENotify);
-    BLE.setLocalName("LedController");
+    //BLE.setLocalName("LedController");
     BLE.setAdvertisedService(*m_ledService);
     m_ledService->addCharacteristic(*m_ledControlCharacteristic);
     m_ledService->addCharacteristic(*m_buttonStateCharacteristic);

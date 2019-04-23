@@ -1,50 +1,50 @@
 src/core/USB/USBCore.d src/core/USB/USBCore.o: \
  ../src/core/USB/USBCore.cpp ..\include\core/Arduino.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_newlib_version.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_intsup.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_stdint.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\stdlib.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cstdlib \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\c++config.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\os_defines.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\cpu_defines.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\config.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\reent.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_types.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\alloca.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\xlocale.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\string.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\math.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cmath \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\bits\cpp_type_traits.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\ext\type_traits.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_newlib_version.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_intsup.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_stdint.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\stdlib.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cstdlib \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\c++config.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\os_defines.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\cpu_defines.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\config.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\reent.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_types.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\alloca.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\xlocale.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\string.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\math.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cmath \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\bits\cpp_type_traits.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\ext\type_traits.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h \
  ..\include\core/avr/pgmspace.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttypes.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttypes.h \
  ..\include\core/avr/interrupt.h ..\include\core/avr/io.h \
  ..\include\core/binary.h ..\include\core/itoa.h \
  ..\include\core\samd21/sam.h ..\include\core\samd21/samd.h \
  ..\include\core/samd21/include/samd21.h \
  ..\include\core/samd21/include/samd21g18a.h \
- E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/core_cm0plus.h \
- E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_compiler.h \
- E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h \
+ E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/core_cm0plus.h \
+ E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_compiler.h \
+ E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h \
  ..\include\core/samd21/include/system_samd21.h \
  ..\include\core/samd21/include/component/ac.h \
  ..\include\core/samd21/include/component/adc.h \
@@ -104,29 +104,29 @@ src/core/USB/USBCore.d src/core/USB/USBCore.o: \
  ..\include\core/samd21/include/pio/samd21g18a.h \
  ..\include\core/wiring_constants.h ..\include\core/WVariant.h \
  ..\include\core/WCharacter.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\ctype.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\ctype.h \
  ..\include\core/WString.h ..\include\core/avr/pgmspace.h \
  ..\include\core/Tone.h ..\include\core/Arduino.h ..\include\core/WMath.h \
  ..\include\core/HardwareSerial.h ..\include\core/Stream.h \
  ..\include\core/Print.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdio.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdarg.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\types.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\endian.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_endian.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\select.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_sigset.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_timeval.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\timespec.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_timespec.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_pthreadtypes.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\types.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\stdio.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdio.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdarg.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\types.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\endian.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_endian.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\select.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_sigset.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_timeval.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\timespec.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_timespec.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_pthreadtypes.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\types.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\stdio.h \
  ..\include\core/Printable.h ..\include\core/pulse.h \
  ..\include\core/delay.h ..\include\variants/variant.h \
  ..\include\core/SERCOM.h ..\include\core/Uart.h ..\include\core/SERCOM.h \
  ..\include\core/RingBuffer.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cstddef \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cstddef \
  ..\include\core/wiring.h ..\include\core/wiring_digital.h \
  ..\include\core/wiring_analog.h ..\include\core/wiring_shift.h \
  ..\include\core/WInterrupts.h ..\include\core/USB/USBDesc.h \
@@ -135,85 +135,85 @@ src/core/USB/USBCore.d src/core/USB/USBCore.o: \
  ..\include\core/USB/USB_host.h ..\include\core/USB/samd21_host.h \
  ..\include\core\USB/SAMD21_USBDevice.h \
  ..\include\core\USB/PluggableUSB.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include-fixed\limits.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include-fixed\syslimits.h \
- e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\limits.h
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include-fixed\limits.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include-fixed\syslimits.h \
+ e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\limits.h
 
 ..\include\core/Arduino.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdbool.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdint.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\features.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_newlib_version.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_newlib_version.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_intsup.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_intsup.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_stdint.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_stdint.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\stdlib.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\stdlib.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cstdlib:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cstdlib:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\c++config.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\c++config.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\os_defines.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\os_defines.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\cpu_defines.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\arm-none-eabi\thumb\v6-m\bits\cpu_defines.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdlib.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\ieeefp.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\newlib.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\config.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\config.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stddef.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\reent.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\reent.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\_ansi.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_types.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_types.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_types.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\lock.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\cdefs.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\stdlib.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\alloca.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\alloca.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\string.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\xlocale.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\xlocale.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\string.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\string.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\math.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\math.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cmath:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cmath:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\bits\cpp_type_traits.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\bits\cpp_type_traits.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\ext\type_traits.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\ext\type_traits.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\math.h:
 
 ..\include\core/avr/pgmspace.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttypes.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttypes.h:
 
 ..\include\core/avr/interrupt.h:
 
@@ -231,11 +231,11 @@ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\inttype
 
 ..\include\core/samd21/include/samd21g18a.h:
 
-E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/core_cm0plus.h:
+E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/core_cm0plus.h:
 
-E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_compiler.h:
+E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_compiler.h:
 
-E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h:
+E:\AtmelStudio7\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h:
 
 ..\include\core/samd21/include/system_samd21.h:
 
@@ -357,7 +357,7 @@ E:\AtmelStudio\7.0\Packs\arm\cmsis\5.0.1\CMSIS\Include/cmsis_gcc.h:
 
 ..\include\core/WCharacter.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\ctype.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\ctype.h:
 
 ..\include\core/WString.h:
 
@@ -375,31 +375,31 @@ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\ctype.h
 
 ..\include\core/Print.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdio.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdio.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdarg.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include\stdarg.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\types.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\types.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\endian.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\endian.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_endian.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_endian.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\select.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\select.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_sigset.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_sigset.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_timeval.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_timeval.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\timespec.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\timespec.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_timespec.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_timespec.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_pthreadtypes.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\_pthreadtypes.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\types.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\types.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\stdio.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\stdio.h:
 
 ..\include\core/Printable.h:
 
@@ -417,7 +417,7 @@ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\sys\std
 
 ..\include\core/RingBuffer.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cstddef:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3.1\cstddef:
 
 ..\include\core/wiring.h:
 
@@ -447,8 +447,8 @@ e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\c++\6.3
 
 ..\include\core\USB/PluggableUSB.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include-fixed\limits.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include-fixed\limits.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include-fixed\syslimits.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\6.3.1\include-fixed\syslimits.h:
 
-e:\atmelstudio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\limits.h:
+e:\atmelstudio7\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\limits.h:

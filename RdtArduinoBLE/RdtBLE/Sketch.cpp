@@ -21,12 +21,18 @@ void setup()
         while (1);
     }
     
+    BLE.setLocalName("K-Roller");
     x_cscService.setup();
     x_diService.setup();
+    //x_batteryService.setup();
     //x_ledService.setup();
     
     Serial.println("waiting for BLE connection");
 }
+
+uint32_t x_speed = 0;
+uint32_t x_distance = 0;
+uint32_t x_wheel = 2;
 
 void loop()
 {
@@ -39,7 +45,27 @@ void loop()
         {
             x_cscService.runService();
             x_diService.runService();
+            //x_batteryService.runService();
             //x_ledService.runService();
+            
+            if (Serial.available()) 
+            {
+                char c = Serial.read();
+                switch (c) {
+                    case 'x':
+                        x_speed++;
+                        if (x_speed > 11) x_speed = 11;
+                        break;
+                    case 'z':
+                        x_speed--;
+                        if (x_speed <  0) x_speed = 0;
+                        break;
+                    case 'c':
+                        x_speed = 0;
+                        break;
+                }
+                Serial.write(c);
+            }
         }
         
         Serial.print("disconnected from central: ");
