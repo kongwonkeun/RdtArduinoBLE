@@ -34,8 +34,8 @@ void Tc5Timer::begin(uint32_t interval)
     reset();
     TC5->COUNT16.CTRLA.reg |= TC_CTRLA_MODE_COUNT16;
     TC5->COUNT16.CTRLA.reg |= TC_CTRLA_WAVEGEN_MFRQ;
-    //TC5->COUNT16.CTRLA.reg |= TC_CTRLA_PRESCALER_DIV1 | TC_CTRLA_ENABLE;
-    //TC5->COUNT16.CC[0].reg  = (uint16_t)((SystemCoreClock / 1000) * m_tickInterval); // 1MHz at Reset
+    // TC5->COUNT16.CTRLA.reg |= TC_CTRLA_PRESCALER_DIV1 | TC_CTRLA_ENABLE;
+    // TC5->COUNT16.CC[0].reg  = (uint16_t)((SystemCoreClock / 1000) * m_tickInterval); // 1MHz at Reset
     TC5->COUNT16.CTRLA.reg |= TC_CTRLA_PRESCALER_DIV1024 | TC_CTRLA_ENABLE; // prescaler = 1024
     TC5->COUNT16.CC[0].reg  = (uint16_t)((46875 / 1000) * m_tickInterval); // 48MHz/1024 = 46875 (1sec)
     while (isSyncing());

@@ -8,7 +8,7 @@
 #include "Tc5Timer.h"
 #include "CSCService.h"
 
-CSCService::CSCService() : 
+CSCService::CSCService() :
 m_flags(0), m_cumulativeWheelRevolution(0), m_lastWheelEventTime(0),
 m_cumulativeCrankRevolution(0), m_lastCrankEventTime(0)
 {
@@ -27,14 +27,13 @@ void CSCService::setup()
     m_cscMeasurement = new BLECharacteristic("2A5B", BLENotify, 7, true); // 11 -> 7
     m_cscFeature = new BLEWordCharacteristic("2A5C", BLERead);
     m_sensorLocation = new BLEByteCharacteristic("2A5D", BLERead);
-    //BLE.setLocalName("K-Roller");
     BLE.setAdvertisedService(*m_cscService);
     m_cscService->addCharacteristic(*m_cscMeasurement);
     m_cscService->addCharacteristic(*m_cscFeature);
     m_cscService->addCharacteristic(*m_sensorLocation);
     BLE.addService(*m_cscService);
     setMeasurementData();
-    m_cscMeasurement->writeValue(m_data, 1); // 
+    m_cscMeasurement->writeValue(m_data, 1); //
     m_cscFeature->writeValueBE(0x0001); // wheel revolution supported
     m_sensorLocation->writeValue(12); // rear wheel
     BLE.advertise();
@@ -48,10 +47,12 @@ void CSCService::runService()
         x_tc5_tick.start();
     }
     BLE.poll();
-    
+
    if (m_flags == 0x01 && m_notify) {
        m_notify = false;
-       //Serial.print("N");
+       /* debug log
+       Serial.print("N");
+       */
        notifyMeasurementData();
    }
 }
@@ -65,22 +66,26 @@ void CSCService::setMeasurementData()
     m_data[4] = (m_cumulativeWheelRevolution) & 0xff;
     m_data[5] = (m_lastWheelEventTime >> 8) & 0xff;
     m_data[6] = (m_lastWheelEventTime) & 0xff;
+
     m_data[7] = 0;
-    //m_data[7]  = (m_cumulativeCrankRevolution >> 8) & 0xff;
-    //m_data[8]  = (m_cumulativeCrankRevolution) & 0xff;
-    //m_data[9]  = (m_lastCrankEventTime >> 8) & 0xff;
-    //m_data[10] = (m_lastCrankEventTime) & 0xff;
-    //m_data[11] = 0;
+    /* cadence information
+    m_data[7]  = (m_cumulativeCrankRevolution >> 8) & 0xff;
+    m_data[8]  = (m_cumulativeCrankRevolution) & 0xff;
+    m_data[9]  = (m_lastCrankEventTime >> 8) & 0xff;
+    m_data[10] = (m_lastCrankEventTime) & 0xff;
+    m_data[11] = 0;
+    */
 }
 
 void CSCService::notifyMeasurementData()
 {
-    //
     x_distance += x_speed;
-    m_cumulativeWheelRevolution = x_distance / x_wheel;
-    uint32_t time = m_lastWheelEventTime + 1024;
-    m_lastWheelEventTime = time % 65536; // rolls over every 64 seconds
-    //
+    uint32_t revolution = x_distance / x_wheel;
+    if (revolution > m_cumulativeWheelRevolution) {
+        m_cumulativeWheelRevolution = revolution;
+        uint32_t time = m_lastWheelEventTime + 1024;
+        m_lastWheelEventTime = time % 65536;
+    }
     setMeasurementData();
     m_cscMeasurement->writeValue(m_data, 7);
 }
@@ -100,9 +105,10 @@ CSCService x_cscService;
 //
 void handle_CSCNotification()
 {
-    //Serial.print("T");
+    /* debug log
+    Serial.print("T");
+    */
     x_cscService.m_notify = true;
-    //x_cscService.notifyMeasurementData();
 }
 
 /* EOF */

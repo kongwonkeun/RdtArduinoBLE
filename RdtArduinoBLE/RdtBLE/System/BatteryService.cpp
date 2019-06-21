@@ -20,7 +20,6 @@ void BatteryService::setup()
 {
     m_batteryService = new BLEService("180F");
     m_batteryLevelCharacteristic = new BLEUnsignedCharCharacteristic("2A19", BLERead | BLENotify);
-    //BLE.setLocalName("BatteryMonitor");
     BLE.setAdvertisedService(*m_batteryService);
     m_batteryService->addCharacteristic(*m_batteryLevelCharacteristic);
     BLE.addService(*m_batteryService);
@@ -38,8 +37,10 @@ void BatteryService::runService()
         if (batteryLevel != m_lastLevel) {
             m_batteryLevelCharacteristic->writeValue((uint8_t)batteryLevel); // uint8
             m_lastLevel = batteryLevel;
-            Serial.print("battery level % is now: "); //----
-            Serial.println(batteryLevel); //----
+            /* informational log
+            Serial.print("battery level % is now: ");
+            Serial.println(batteryLevel);
+            */
         }
     }
 }

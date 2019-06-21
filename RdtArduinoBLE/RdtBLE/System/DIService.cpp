@@ -22,7 +22,6 @@ void DIService::setup()
     m_manufacturerNameCharateristic = new BLEStringCharacteristic("2A29", BLERead, 14);
     m_modelNumberCharacteristic = new BLEStringCharacteristic("2A24", BLERead, 5);
     m_SerialNumberCharacteristic = new BLEStringCharacteristic("2A25", BLERead, 9);
-    //BLE.setLocalName("DeviceInformation");
     BLE.setAdvertisedService(*m_diService);
     m_diService->addCharacteristic(*m_manufacturerNameCharateristic);
     m_diService->addCharacteristic(*m_modelNumberCharacteristic);

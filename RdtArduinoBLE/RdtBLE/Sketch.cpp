@@ -20,13 +20,15 @@ void setup()
         Serial.println("starting BLE failed!");
         while (1);
     }
-    
+    /* bluetooth serial module interface
+       Serial1.begin(115200);
+    */
     BLE.setLocalName("K-Roller");
     x_cscService.setup();
     x_diService.setup();
-    //x_batteryService.setup();
-    //x_ledService.setup();
-    
+    // x_batteryService.setup();
+    // x_ledService.setup();
+
     Serial.println("waiting for BLE connection");
 }
 
@@ -36,20 +38,30 @@ uint32_t x_wheel = 2;
 
 void loop()
 {
+    /* two way communication between console and bluetooth serial terminal
+    if (Serial.available()) {
+        char c = Serial.read();
+        Serial.write(c);
+        Serial1.write(c);
+    }
+    if (Serial1.available()) {
+        char x = Serial1.read();
+        Serial.write(x);
+    }
+    */
     BLEDevice central = BLE.central();
     if (central) {
+
         Serial.print("connected to central: ");
         Serial.println(central.address());
-        
-        while (central.connected())
-        {
+
+        while (central.connected()) {
             x_cscService.runService();
             x_diService.runService();
-            //x_batteryService.runService();
-            //x_ledService.runService();
-            
-            if (Serial.available()) 
-            {
+            // x_batteryService.runService();
+            // x_ledService.runService();
+            /* control logic for csc profile (cycling speed and cadence) */
+            if (Serial.available()) {
                 char c = Serial.read();
                 switch (c) {
                     case 'x':
@@ -67,10 +79,10 @@ void loop()
                 Serial.write(c);
             }
         }
-        
         Serial.print("disconnected from central: ");
         Serial.println(central.address());
     }
+
 }
 
 /* EOF */

@@ -4237,9 +4237,7 @@ Discarded input sections
  .text._ZN14BatteryService5setupEv
                 0x00000000       0x64 System/BatteryService.o
  .text._ZN14BatteryService10runServiceEv
-                0x00000000       0x6c System/BatteryService.o
- .rodata._ZN14BatteryService10runServiceEv.str1.1
-                0x00000000       0x19 System/BatteryService.o
+                0x00000000       0x50 System/BatteryService.o
  .rodata._ZN14BatteryService5setupEv.str1.1
                 0x00000000        0xa System/BatteryService.o
  .debug_macro   0x00000000      0x97c System/BatteryService.o
@@ -5056,11 +5054,11 @@ Discarded input sections
  .text._ZN22BLETypedCharacteristicIhE5valueEv
                 0x00000000       0x22 System/LedService.o
  .text._ZN10LedService10runServiceEv
-                0x00000000       0x6c System/LedService.o
+                0x00000000       0x4c System/LedService.o
  .text._ZN10LedService8getValueEv
                 0x00000000        0xa System/LedService.o
  .text._Z36handle_LedCharacteristicWrittenEvent9BLEDevice17BLECharacteristic
-                0x00000000       0x50 System/LedService.o
+                0x00000000       0x24 System/LedService.o
  .text._Z22handle_LedConnectEvent9BLEDevice
                 0x00000000       0x34 System/LedService.o
  .text._Z25handle_LedDisconnectEvent9BLEDevice
@@ -5069,10 +5067,6 @@ Discarded input sections
                 0x00000000       0x1a System/LedService.o
  .rodata._Z25handle_LedDisconnectEvent9BLEDevice.str1.1
                 0x00000000       0x1d System/LedService.o
- .rodata._Z36handle_LedCharacteristicWrittenEvent9BLEDevice17BLECharacteristic.str1.1
-                0x00000000       0x1f System/LedService.o
- .rodata._ZN10LedService10runServiceEv.str1.1
-                0x00000000        0xf System/LedService.o
  .rodata._ZN10LedService5setupEv.str1.1
                 0x00000000       0x6f System/LedService.o
  .debug_macro   0x00000000      0x97c System/LedService.o
@@ -10388,7 +10382,7 @@ END GROUP
 LOAD e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
 LOAD e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
 
-.text           0x00002000     0xa0bc
+.text           0x00002000     0xa0c4
                 0x00002000                __text_start__ = .
  *(.sketch_boot)
                 0x00002000                . = ALIGN (0x2000)
@@ -11099,709 +11093,709 @@ LOAD e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none
                 0x00004de4       0xcc System/CSCService.o
                 0x00004de4                CSCService::setup()
  .text._ZN10CSCService21notifyMeasurementDataEv
-                0x00004eb0       0x44 System/CSCService.o
+                0x00004eb0       0x4c System/CSCService.o
                 0x00004eb0                CSCService::notifyMeasurementData()
  .text._ZN10CSCService3endEv
-                0x00004ef4       0x36 System/CSCService.o
-                0x00004ef4                CSCService::end()
+                0x00004efc       0x36 System/CSCService.o
+                0x00004efc                CSCService::end()
  .text._ZN10CSCServiceD2Ev
-                0x00004f2a        0xc System/CSCService.o
-                0x00004f2a                CSCService::~CSCService()
-                0x00004f2a                CSCService::~CSCService()
- *fill*         0x00004f36        0x2 
+                0x00004f32        0xc System/CSCService.o
+                0x00004f32                CSCService::~CSCService()
+                0x00004f32                CSCService::~CSCService()
+ *fill*         0x00004f3e        0x2 
  .text.startup._GLOBAL__sub_I__ZN10CSCServiceC2Ev
-                0x00004f38       0x24 System/CSCService.o
+                0x00004f40       0x24 System/CSCService.o
  .text._ZN10CSCService10runServiceEv
-                0x00004f5c       0x48 System/CSCService.o
-                0x00004f5c                CSCService::runService()
+                0x00004f64       0x48 System/CSCService.o
+                0x00004f64                CSCService::runService()
  .text._ZN9DIService5setupEv
-                0x00004fa4       0xec System/DIService.o
-                0x00004fa4                DIService::setup()
+                0x00004fac       0xec System/DIService.o
+                0x00004fac                DIService::setup()
  .text._ZN9DIService3endEv
-                0x00005090       0x36 System/DIService.o
-                0x00005090                DIService::end()
+                0x00005098       0x36 System/DIService.o
+                0x00005098                DIService::end()
  .text._ZN9DIServiceD2Ev
-                0x000050c6        0xc System/DIService.o
-                0x000050c6                DIService::~DIService()
-                0x000050c6                DIService::~DIService()
- *fill*         0x000050d2        0x2 
+                0x000050ce        0xc System/DIService.o
+                0x000050ce                DIService::~DIService()
+                0x000050ce                DIService::~DIService()
+ *fill*         0x000050da        0x2 
  .text.startup._GLOBAL__sub_I__ZN9DIServiceC2Ev
-                0x000050d4       0x1c System/DIService.o
+                0x000050dc       0x1c System/DIService.o
  .text._ZN9DIService10runServiceEv
-                0x000050f0       0x10 System/DIService.o
-                0x000050f0                DIService::runService()
+                0x000050f8       0x10 System/DIService.o
+                0x000050f8                DIService::runService()
  .text._ZN10LedServiceC2Ev
-                0x00005100       0x1e System/LedService.o
-                0x00005100                LedService::LedService()
-                0x00005100                LedService::LedService()
+                0x00005108       0x1e System/LedService.o
+                0x00005108                LedService::LedService()
+                0x00005108                LedService::LedService()
  .text._ZN10LedService3endEv
-                0x0000511e       0x2a System/LedService.o
-                0x0000511e                LedService::end()
+                0x00005126       0x2a System/LedService.o
+                0x00005126                LedService::end()
  .text._ZN10LedServiceD2Ev
-                0x00005148        0xc System/LedService.o
-                0x00005148                LedService::~LedService()
-                0x00005148                LedService::~LedService()
+                0x00005150        0xc System/LedService.o
+                0x00005150                LedService::~LedService()
+                0x00005150                LedService::~LedService()
  .text.startup._GLOBAL__sub_I__ZN10LedServiceC2Ev
-                0x00005154       0x24 System/LedService.o
+                0x0000515c       0x24 System/LedService.o
  .text._ZN8Tc5Timer11addCallbackEPFvvE
-                0x00005178       0x2a System/Tc5Timer.o
-                0x00005178                Tc5Timer::addCallback(void (*)())
+                0x00005180       0x2a System/Tc5Timer.o
+                0x00005180                Tc5Timer::addCallback(void (*)())
  .text._ZN8Tc5Timer11runCallbackEv
-                0x000051a2       0x2c System/Tc5Timer.o
-                0x000051a2                Tc5Timer::runCallback()
- *fill*         0x000051ce        0x2 
+                0x000051aa       0x2c System/Tc5Timer.o
+                0x000051aa                Tc5Timer::runCallback()
+ *fill*         0x000051d6        0x2 
  .text.TC5_Handler
-                0x000051d0       0x1c System/Tc5Timer.o
-                0x000051d0                TC5_Handler
+                0x000051d8       0x1c System/Tc5Timer.o
+                0x000051d8                TC5_Handler
  .text._ZN8Tc5Timer5resetEv
-                0x000051ec       0x1c System/Tc5Timer.o
-                0x000051ec                Tc5Timer::reset()
+                0x000051f4       0x1c System/Tc5Timer.o
+                0x000051f4                Tc5Timer::reset()
  .text._ZN8Tc5Timer5beginEm
-                0x00005208       0x94 System/Tc5Timer.o
-                0x00005208                Tc5Timer::begin(unsigned long)
+                0x00005210       0x94 System/Tc5Timer.o
+                0x00005210                Tc5Timer::begin(unsigned long)
  .text._ZN8Tc5Timer5startEv
-                0x0000529c       0x18 System/Tc5Timer.o
-                0x0000529c                Tc5Timer::start()
+                0x000052a4       0x18 System/Tc5Timer.o
+                0x000052a4                Tc5Timer::start()
  .text._ZN8Tc5Timer4stopEv
-                0x000052b4       0x18 System/Tc5Timer.o
-                0x000052b4                Tc5Timer::stop()
+                0x000052bc       0x18 System/Tc5Timer.o
+                0x000052bc                Tc5Timer::stop()
  .text._ZN8Tc5TimerD2Ev
-                0x000052cc       0x22 System/Tc5Timer.o
-                0x000052cc                Tc5Timer::~Tc5Timer()
-                0x000052cc                Tc5Timer::~Tc5Timer()
- *fill*         0x000052ee        0x2 
+                0x000052d4       0x22 System/Tc5Timer.o
+                0x000052d4                Tc5Timer::~Tc5Timer()
+                0x000052d4                Tc5Timer::~Tc5Timer()
+ *fill*         0x000052f6        0x2 
  .text.startup._GLOBAL__sub_I_TC5_Handler
-                0x000052f0       0x24 System/Tc5Timer.o
+                0x000052f8       0x24 System/Tc5Timer.o
  .text.Dummy_Handler
-                0x00005314        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
-                0x00005314                DMAC_Handler
-                0x00005314                HardFault_Handler
-                0x00005314                AC_Handler
-                0x00005314                PendSV_Handler
-                0x00005314                NMI_Handler
-                0x00005314                TC7_Handler
-                0x00005314                SERCOM1_Handler
-                0x00005314                ADC_Handler
-                0x00005314                TCC1_Handler
-                0x00005314                SERCOM2_Handler
-                0x00005314                TCC0_Handler
-                0x00005314                RTC_Handler
-                0x00005314                EIC_Handler
-                0x00005314                TC6_Handler
-                0x00005314                WDT_Handler
-                0x00005314                TC4_Handler
-                0x00005314                TC3_Handler
-                0x00005314                Dummy_Handler
-                0x00005314                PM_Handler
-                0x00005314                SVC_Handler
-                0x00005314                TCC2_Handler
-                0x00005314                EVSYS_Handler
-                0x00005314                SERCOM3_Handler
-                0x00005314                I2S_Handler
-                0x00005314                NVMCTRL_Handler
-                0x00005314                SERCOM0_Handler
-                0x00005314                DAC_Handler
-                0x00005314                PTC_Handler
-                0x00005314                SYSCTRL_Handler
+                0x0000531c        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+                0x0000531c                DMAC_Handler
+                0x0000531c                HardFault_Handler
+                0x0000531c                AC_Handler
+                0x0000531c                PendSV_Handler
+                0x0000531c                NMI_Handler
+                0x0000531c                TC7_Handler
+                0x0000531c                SERCOM1_Handler
+                0x0000531c                ADC_Handler
+                0x0000531c                TCC1_Handler
+                0x0000531c                SERCOM2_Handler
+                0x0000531c                TCC0_Handler
+                0x0000531c                RTC_Handler
+                0x0000531c                EIC_Handler
+                0x0000531c                TC6_Handler
+                0x0000531c                WDT_Handler
+                0x0000531c                TC4_Handler
+                0x0000531c                TC3_Handler
+                0x0000531c                Dummy_Handler
+                0x0000531c                PM_Handler
+                0x0000531c                SVC_Handler
+                0x0000531c                TCC2_Handler
+                0x0000531c                EVSYS_Handler
+                0x0000531c                SERCOM3_Handler
+                0x0000531c                I2S_Handler
+                0x0000531c                NVMCTRL_Handler
+                0x0000531c                SERCOM0_Handler
+                0x0000531c                DAC_Handler
+                0x0000531c                PTC_Handler
+                0x0000531c                SYSCTRL_Handler
  .text.USB_Handler
-                0x00005318       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
-                0x00005318                USB_Handler
+                0x00005320       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+                0x00005320                USB_Handler
  .text.Reset_Handler
-                0x0000532c       0x54 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
-                0x0000532c                Reset_Handler
+                0x00005334       0x54 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+                0x00005334                Reset_Handler
  .text.SysTick_Handler
-                0x00005380       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
-                0x00005380                SysTick_Handler
+                0x00005388       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+                0x00005388                SysTick_Handler
  .text.USB_SetHandler
-                0x00005390        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
-                0x00005390                USB_SetHandler
- .text.millis   0x0000539c        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
-                0x0000539c                millis
- .text.micros   0x000053a8       0x60 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
-                0x000053a8                micros
- .text.delay    0x00005408       0x30 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
-                0x00005408                delay
+                0x00005398        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+                0x00005398                USB_SetHandler
+ .text.millis   0x000053a4        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+                0x000053a4                millis
+ .text.micros   0x000053b0       0x60 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+                0x000053b0                micros
+ .text.delay    0x00005410       0x30 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+                0x00005410                delay
  .text.SysTick_DefaultHandler
-                0x00005438       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
-                0x00005438                SysTick_DefaultHandler
- .text.__empty  0x0000544c        0x2 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                0x0000544c                yield
- .text.__false  0x0000544e        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                0x0000544e                sysTickHook
- *fill*         0x00005452        0x2 
+                0x00005440       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+                0x00005440                SysTick_DefaultHandler
+ .text.__empty  0x00005454        0x2 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00005454                yield
+ .text.__false  0x00005456        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00005456                sysTickHook
+ *fill*         0x0000545a        0x2 
  .text.startup.main
-                0x00005454       0x40 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00005454                main
- .text._Znwj    0x00005494        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
-                0x00005494                operator new(unsigned int)
- .text._ZdlPv   0x0000549c        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
-                0x0000549c                operator delete(void*)
+                0x0000545c       0x40 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x0000545c                main
+ .text._Znwj    0x0000549c        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
+                0x0000549c                operator new(unsigned int)
+ .text._ZdlPv   0x000054a4        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
+                0x000054a4                operator delete(void*)
  .text._ZN5Print5writeEPKhj
-                0x000054a4       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000054a4                Print::write(unsigned char const*, unsigned int)
+                0x000054ac       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000054ac                Print::write(unsigned char const*, unsigned int)
  .text._ZN5Print5writeEPKc
-                0x000054cc       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000054cc                Print::write(char const*)
+                0x000054d4       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000054d4                Print::write(char const*)
  .text._ZN5Print5printERK6String
-                0x000054e8        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000054e8                Print::print(String const&)
+                0x000054f0        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000054f0                Print::print(String const&)
  .text._ZN5Print5printEPKc
-                0x000054f6        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000054f6                Print::print(char const*)
- *fill*         0x000054fe        0x2 
+                0x000054fe        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000054fe                Print::print(char const*)
+ *fill*         0x00005506        0x2 
  .text._ZN5Print7printlnEv
-                0x00005500       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005500                Print::println()
+                0x00005508       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00005508                Print::println()
  .text._ZN5Print7printlnERK6String
-                0x00005510       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005510                Print::println(String const&)
+                0x00005518       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00005518                Print::println(String const&)
  .text._ZN5Print7printlnEPKc
-                0x00005524       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005524                Print::println(char const*)
+                0x0000552c       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0000552c                Print::println(char const*)
  .text._ZN5Print11printNumberEmh
-                0x00005538       0x56 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005538                Print::printNumber(unsigned long, unsigned char)
+                0x00005540       0x56 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00005540                Print::printNumber(unsigned long, unsigned char)
  .text._ZN5Print5printEmi
-                0x0000558e       0x18 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x0000558e                Print::print(unsigned long, int)
+                0x00005596       0x18 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00005596                Print::print(unsigned long, int)
  .text._ZN5Print5printEhi
-                0x000055a6        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000055a6                Print::print(unsigned char, int)
+                0x000055ae        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000055ae                Print::print(unsigned char, int)
  .text._ZN5Print7printlnEhi
-                0x000055ae       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000055ae                Print::println(unsigned char, int)
- *fill*         0x000055c2        0x2 
+                0x000055b6       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000055b6                Print::println(unsigned char, int)
+ *fill*         0x000055ca        0x2 
  .text.initiateReset
-                0x000055c4        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
-                0x000055c4                initiateReset
+                0x000055cc        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+                0x000055cc                initiateReset
  .text.cancelReset
-                0x000055d0       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
-                0x000055d0                cancelReset
+                0x000055d8       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+                0x000055d8                cancelReset
  .text.tickReset
-                0x000055e0       0x78 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
-                0x000055e0                tickReset
+                0x000055e8       0x78 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+                0x000055e8                tickReset
  .text.SystemInit
-                0x00005658      0x160 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
-                0x00005658                SystemInit
+                0x00005660      0x160 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
+                0x00005660                SystemInit
  .text._ZN7Serial_17availableForWriteEv
-                0x000057b8        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000057b8                Serial_::availableForWrite()
+                0x000057c0        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000057c0                Serial_::availableForWrite()
  .text._ZN7Serial_5writeEh
-                0x000057bc       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000057bc                Serial_::write(unsigned char)
+                0x000057c4       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000057c4                Serial_::write(unsigned char)
  .text._ZN7Serial_9availableEv
-                0x000057d0        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000057d0                Serial_::available()
+                0x000057d8        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000057d8                Serial_::available()
  .text._ZN7Serial_5flushEv
-                0x000057dc        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000057dc                Serial_::flush()
+                0x000057e4        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000057e4                Serial_::flush()
  .text._ZN7Serial_5writeEPKhj
-                0x000057e8       0x1a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000057e8                Serial_::write(unsigned char const*, unsigned int)
- *fill*         0x00005802        0x2 
+                0x000057f0       0x1a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000057f0                Serial_::write(unsigned char const*, unsigned int)
+ *fill*         0x0000580a        0x2 
  .text._ZN7Serial_4peekEv
-                0x00005804       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00005804                Serial_::peek()
+                0x0000580c       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0000580c                Serial_::peek()
  .text._ZN7Serial_4readEv
-                0x00005820       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00005820                Serial_::read()
+                0x00005828       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00005828                Serial_::read()
  .text._Z16CDC_GetInterfacePh
-                0x00005844       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00005844                CDC_GetInterface(unsigned char*)
+                0x0000584c       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0000584c                CDC_GetInterface(unsigned char*)
  .text._Z9CDC_SetupR8USBSetup
-                0x00005860       0x7c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x00005860                CDC_Setup(USBSetup&)
+                0x00005868       0x7c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00005868                CDC_Setup(USBSetup&)
  .text._ZN7Serial_5beginEm
-                0x000058dc        0x2 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000058dc                Serial_::begin(unsigned long)
- *fill*         0x000058de        0x2 
+                0x000058e4        0x2 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000058e4                Serial_::begin(unsigned long)
+ *fill*         0x000058e6        0x2 
  .text._ZN7Serial_cvbEv
-                0x000058e0       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x000058e0                Serial_::operator bool()
+                0x000058e8       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x000058e8                Serial_::operator bool()
  .text.startup._GLOBAL__sub_I__Z17_CDC_GetInterfacev
-                0x00005908       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x00005910       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
  .text._ZL5utox8mPc
-                0x00005930       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005938       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .text._ZN26DoubleBufferedEPOutHandlerD2Ev
-                0x00005954       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005954                DoubleBufferedEPOutHandler::~DoubleBufferedEPOutHandler()
-                0x00005954                DoubleBufferedEPOutHandler::~DoubleBufferedEPOutHandler()
+                0x0000595c       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000595c                DoubleBufferedEPOutHandler::~DoubleBufferedEPOutHandler()
+                0x0000595c                DoubleBufferedEPOutHandler::~DoubleBufferedEPOutHandler()
  .text._ZN26DoubleBufferedEPOutHandlerD0Ev
-                0x00005968       0x12 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005968                DoubleBufferedEPOutHandler::~DoubleBufferedEPOutHandler()
- *fill*         0x0000597a        0x2 
+                0x00005970       0x12 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005970                DoubleBufferedEPOutHandler::~DoubleBufferedEPOutHandler()
+ *fill*         0x00005982        0x2 
  .text._ZN14USBDeviceClass6initEPEmm.part.5
-                0x0000597c       0xd0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005984       0xd0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .text._ZN20USBDevice_SAMD21G18x5resetEv
-                0x00005a4c       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005a4c                USBDevice_SAMD21G18x::reset()
+                0x00005a54       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005a54                USBDevice_SAMD21G18x::reset()
  .text._ZN20USBDevice_SAMD21G18x9calibrateEv
-                0x00005a70       0x60 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005a70                USBDevice_SAMD21G18x::calibrate()
+                0x00005a78       0x60 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005a78                USBDevice_SAMD21G18x::calibrate()
  .text._ZN7__GuardC2Ev
-                0x00005ad0        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005ad0                __Guard::__Guard()
-                0x00005ad0                __Guard::__Guard()
+                0x00005ad8        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005ad8                __Guard::__Guard()
+                0x00005ad8                __Guard::__Guard()
  .text._ZN7__GuardD2Ev
-                0x00005ade        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005ade                __Guard::~__Guard()
-                0x00005ade                __Guard::~__Guard()
+                0x00005ae6        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005ae6                __Guard::~__Guard()
+                0x00005ae6                __Guard::~__Guard()
  .text._ZNK26DoubleBufferedEPOutHandler9availableEv
-                0x00005aec       0x5e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005aec                DoubleBufferedEPOutHandler::available() const
- *fill*         0x00005b4a        0x2 
+                0x00005af4       0x5e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005af4                DoubleBufferedEPOutHandler::available() const
+ *fill*         0x00005b52        0x2 
  .text._ZN26DoubleBufferedEPOutHandler7releaseEv
-                0x00005b4c       0x44 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005b4c                DoubleBufferedEPOutHandler::release()
+                0x00005b54       0x44 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005b54                DoubleBufferedEPOutHandler::release()
  .text._ZN26DoubleBufferedEPOutHandler4recvEPvm
-                0x00005b90      0x11e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005b90                DoubleBufferedEPOutHandler::recv(void*, unsigned long)
+                0x00005b98      0x11e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005b98                DoubleBufferedEPOutHandler::recv(void*, unsigned long)
  .text._ZN26DoubleBufferedEPOutHandler14handleEndpointEv
-                0x00005cae       0xba E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005cae                DoubleBufferedEPOutHandler::handleEndpoint()
+                0x00005cb6       0xba E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005cb6                DoubleBufferedEPOutHandler::handleEndpoint()
  .text._ZN14USBDeviceClass14SendInterfacesEPm
-                0x00005d68       0x2c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005d68                USBDeviceClass::SendInterfaces(unsigned long*)
+                0x00005d70       0x2c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005d70                USBDeviceClass::SendInterfaces(unsigned long*)
  .text._ZN14USBDeviceClass14handleEndpointEh
-                0x00005d94       0x44 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005d94                USBDeviceClass::handleEndpoint(unsigned char)
+                0x00005d9c       0x44 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005d9c                USBDeviceClass::handleEndpoint(unsigned char)
  .text._ZN14USBDeviceClass4initEv
-                0x00005dd8       0xc0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005dd8                USBDeviceClass::init()
+                0x00005de0       0xc0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005de0                USBDeviceClass::init()
  .text._ZN14USBDeviceClass6attachEv
-                0x00005e98       0x34 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005e98                USBDeviceClass::attach()
+                0x00005ea0       0x34 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005ea0                USBDeviceClass::attach()
  .text._ZN14USBDeviceClass10setAddressEm
-                0x00005ecc       0x48 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005ecc                USBDeviceClass::setAddress(unsigned long)
+                0x00005ed4       0x48 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005ed4                USBDeviceClass::setAddress(unsigned long)
  .text._ZN14USBDeviceClass25handleClassInterfaceSetupER8USBSetup
-                0x00005f14       0x44 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005f14                USBDeviceClass::handleClassInterfaceSetup(USBSetup&)
+                0x00005f1c       0x44 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005f1c                USBDeviceClass::handleClassInterfaceSetup(USBSetup&)
  .text._ZN14USBDeviceClass6initEPEmm
-                0x00005f58       0xec E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00005f58                USBDeviceClass::initEP(unsigned long, unsigned long)
+                0x00005f60       0xec E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00005f60                USBDeviceClass::initEP(unsigned long, unsigned long)
  .text._ZN14USBDeviceClass13initEndpointsEv
-                0x00006044       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006044                USBDeviceClass::initEndpoints()
+                0x0000604c       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000604c                USBDeviceClass::initEndpoints()
  .text._ZN14USBDeviceClass9availableEm
-                0x00006068       0x2c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006068                USBDeviceClass::available(unsigned long)
+                0x00006070       0x2c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00006070                USBDeviceClass::available(unsigned long)
  .text._ZN14USBDeviceClass5flushEm
-                0x00006094       0x2c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006094                USBDeviceClass::flush(unsigned long)
+                0x0000609c       0x2c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000609c                USBDeviceClass::flush(unsigned long)
  .text._ZN14USBDeviceClass14armRecvCtrlOUTEm
-                0x000060c0       0x5c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x000060c0                USBDeviceClass::armRecvCtrlOUT(unsigned long)
+                0x000060c8       0x5c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000060c8                USBDeviceClass::armRecvCtrlOUT(unsigned long)
  .text._ZN14USBDeviceClass11recvControlEPvm
-                0x0000611c       0x3c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x0000611c                USBDeviceClass::recvControl(void*, unsigned long)
+                0x00006124       0x3c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00006124                USBDeviceClass::recvControl(void*, unsigned long)
  .text._ZN14USBDeviceClass7armRecvEm
-                0x00006158       0x38 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006158                USBDeviceClass::armRecv(unsigned long)
+                0x00006160       0x38 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00006160                USBDeviceClass::armRecv(unsigned long)
  .text._ZN14USBDeviceClass4recvEmPvm
-                0x00006190       0xc0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006190                USBDeviceClass::recv(unsigned long, void*, unsigned long)
+                0x00006198       0xc0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00006198                USBDeviceClass::recv(unsigned long, void*, unsigned long)
  .text._ZN14USBDeviceClass4recvEm
-                0x00006250       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006250                USBDeviceClass::recv(unsigned long)
+                0x00006258       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00006258                USBDeviceClass::recv(unsigned long)
  .text._ZN14USBDeviceClass4sendEmPKvm
-                0x0000626c       0xf8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x0000626c                USBDeviceClass::send(unsigned long, void const*, unsigned long)
+                0x00006274       0xf8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00006274                USBDeviceClass::send(unsigned long, void const*, unsigned long)
  .text._ZN14USBDeviceClass7armSendEmPKvm
-                0x00006364       0x48 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006364                USBDeviceClass::armSend(unsigned long, void const*, unsigned long)
+                0x0000636c       0x48 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000636c                USBDeviceClass::armSend(unsigned long, void const*, unsigned long)
  .text._ZN14USBDeviceClass11sendControlEPKvm
-                0x000063ac       0x54 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x000063ac                USBDeviceClass::sendControl(void const*, unsigned long)
+                0x000063b4       0x54 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000063b4                USBDeviceClass::sendControl(void const*, unsigned long)
  .text._ZN14USBDeviceClass20sendStringDescriptorEPKhh
-                0x00006400       0x64 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006400                USBDeviceClass::sendStringDescriptor(unsigned char const*, unsigned char)
+                0x00006408       0x64 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00006408                USBDeviceClass::sendStringDescriptor(unsigned char const*, unsigned char)
  .text._ZN14USBDeviceClass17sendConfigurationEm
-                0x00006464       0x94 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x00006464                USBDeviceClass::sendConfiguration(unsigned long)
+                0x0000646c       0x94 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000646c                USBDeviceClass::sendConfiguration(unsigned long)
  .text._ZN14USBDeviceClass14sendDescriptorER8USBSetup
-                0x000064f8       0xe4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x000064f8                USBDeviceClass::sendDescriptor(USBSetup&)
+                0x00006500       0xe4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x00006500                USBDeviceClass::sendDescriptor(USBSetup&)
  .text._ZN14USBDeviceClass19handleStandardSetupER8USBSetup
-                0x000065dc      0x108 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x000065dc                USBDeviceClass::handleStandardSetup(USBSetup&)
+                0x000065e4      0x108 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000065e4                USBDeviceClass::handleStandardSetup(USBSetup&)
  .text._ZN14USBDeviceClass10ISRHandlerEv
-                0x000066e4      0x10c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x000066e4                USBDeviceClass::ISRHandler()
+                0x000066ec      0x10c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000066ec                USBDeviceClass::ISRHandler()
  .text.UDD_Handler
-                0x000067f0       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x000067f0                UDD_Handler
+                0x000067f8       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x000067f8                UDD_Handler
  .text.startup._GLOBAL__sub_I__ZN20USBDevice_SAMD21G18x5resetEv
-                0x00006800       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .text.init     0x00006810       0xf0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00006810                init
+                0x00006808       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .text.init     0x00006818       0xf0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00006818                init
  .text.analogReference
-                0x00006900       0x64 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
-                0x00006900                analogReference
- .text.pinMode  0x00006964       0x98 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00006964                pinMode
+                0x00006908       0x64 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+                0x00006908                analogReference
+ .text.pinMode  0x0000696c       0x98 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000696c                pinMode
  .text.digitalWrite
-                0x000069fc       0x58 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000069fc                digitalWrite
+                0x00006a04       0x58 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00006a04                digitalWrite
  .text.pinPeripheral
-                0x00006a54       0xbc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
-                0x00006a54                pinPeripheral
+                0x00006a5c       0xbc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
+                0x00006a5c                pinPeripheral
  .text._ZN6StringD2Ev
-                0x00006b10        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006b10                String::~String()
-                0x00006b10                String::~String()
+                0x00006b18        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00006b18                String::~String()
+                0x00006b18                String::~String()
  .text._ZN6String10invalidateEv
-                0x00006b1e       0x18 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006b1e                String::invalidate()
+                0x00006b26       0x18 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00006b26                String::invalidate()
  .text._ZN6String12changeBufferEj
-                0x00006b36       0x18 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006b36                String::changeBuffer(unsigned int)
+                0x00006b3e       0x18 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00006b3e                String::changeBuffer(unsigned int)
  .text._ZN6String7reserveEj
-                0x00006b4e       0x2a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006b4e                String::reserve(unsigned int)
+                0x00006b56       0x2a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00006b56                String::reserve(unsigned int)
  .text._ZN6String4copyEPKcj
-                0x00006b78       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006b78                String::copy(char const*, unsigned int)
+                0x00006b80       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00006b80                String::copy(char const*, unsigned int)
  .text._ZN6StringC2EPKc
-                0x00006ba0       0x26 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006ba0                String::String(char const*)
-                0x00006ba0                String::String(char const*)
+                0x00006ba8       0x26 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00006ba8                String::String(char const*)
+                0x00006ba8                String::String(char const*)
  .text._Z11initVariantv
-                0x00006bc6       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
-                0x00006bc6                initVariant()
- *fill*         0x00006bea        0x2 
+                0x00006bce       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+                0x00006bce                initVariant()
+ *fill*         0x00006bf2        0x2 
  .text.SERCOM5_Handler
-                0x00006bec       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
-                0x00006bec                SERCOM5_Handler
+                0x00006bf4       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+                0x00006bf4                SERCOM5_Handler
  .text.SERCOM4_Handler
-                0x00006bfc       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
-                0x00006bfc                SERCOM4_Handler
+                0x00006c04       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+                0x00006c04                SERCOM4_Handler
  .text.startup._GLOBAL__sub_I_g_APinDescription
-                0x00006c0c       0xa0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+                0x00006c14       0xa0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
  .text._ZN6SERCOMC2EP6Sercom
-                0x00006cac        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006cac                SERCOM::SERCOM(Sercom*)
-                0x00006cac                SERCOM::SERCOM(Sercom*)
+                0x00006cb4        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006cb4                SERCOM::SERCOM(Sercom*)
+                0x00006cb4                SERCOM::SERCOM(Sercom*)
  .text._ZN6SERCOM9initFrameE18SercomUartCharSize15SercomDataOrder16SercomParityMode19SercomNumberStopBit
-                0x00006cb0       0x34 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006cb0                SERCOM::initFrame(SercomUartCharSize, SercomDataOrder, SercomParityMode, SercomNumberStopBit)
+                0x00006cb8       0x34 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006cb8                SERCOM::initFrame(SercomUartCharSize, SercomDataOrder, SercomParityMode, SercomNumberStopBit)
  .text._ZN6SERCOM8initPadsE15SercomUartTXPad11SercomRXPad
-                0x00006ce4       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006ce4                SERCOM::initPads(SercomUartTXPad, SercomRXPad)
+                0x00006cec       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006cec                SERCOM::initPads(SercomUartTXPad, SercomRXPad)
  .text._ZN6SERCOM9resetUARTEv
-                0x00006d08       0x18 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d08                SERCOM::resetUART()
+                0x00006d10       0x18 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d10                SERCOM::resetUART()
  .text._ZN6SERCOM10enableUARTEv
-                0x00006d20       0x12 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d20                SERCOM::enableUART()
+                0x00006d28       0x12 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d28                SERCOM::enableUART()
  .text._ZN6SERCOM9flushUARTEv
-                0x00006d32       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d32                SERCOM::flushUART()
+                0x00006d3a       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d3a                SERCOM::flushUART()
  .text._ZN6SERCOM15clearStatusUARTEv
-                0x00006d42        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d42                SERCOM::clearStatusUART()
+                0x00006d4a        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d4a                SERCOM::clearStatusUART()
  .text._ZN6SERCOM17availableDataUARTEv
-                0x00006d4a        0xa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d4a                SERCOM::availableDataUART()
+                0x00006d52        0xa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d52                SERCOM::availableDataUART()
  .text._ZN6SERCOM11isUARTErrorEv
-                0x00006d54        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d54                SERCOM::isUARTError()
+                0x00006d5c        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d5c                SERCOM::isUARTError()
  .text._ZN6SERCOM20acknowledgeUARTErrorEv
-                0x00006d5c        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d5c                SERCOM::acknowledgeUARTError()
+                0x00006d64        0xe E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d64                SERCOM::acknowledgeUARTError()
  .text._ZN6SERCOM16isFrameErrorUARTEv
-                0x00006d6a        0xa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d6a                SERCOM::isFrameErrorUART()
+                0x00006d72        0xa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d72                SERCOM::isFrameErrorUART()
  .text._ZN6SERCOM19clearFrameErrorUARTEv
-                0x00006d74        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d74                SERCOM::clearFrameErrorUART()
+                0x00006d7c        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d7c                SERCOM::clearFrameErrorUART()
  .text._ZN6SERCOM23isDataRegisterEmptyUARTEv
-                0x00006d80        0xa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d80                SERCOM::isDataRegisterEmptyUART()
+                0x00006d88        0xa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d88                SERCOM::isDataRegisterEmptyUART()
  .text._ZN6SERCOM12readDataUARTEv
-                0x00006d8a        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d8a                SERCOM::readDataUART()
+                0x00006d92        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d92                SERCOM::readDataUART()
  .text._ZN6SERCOM13writeDataUARTEh
-                0x00006d92       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006d92                SERCOM::writeDataUART(unsigned char)
+                0x00006d9a       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006d9a                SERCOM::writeDataUART(unsigned char)
  .text._ZN6SERCOM36enableDataRegisterEmptyInterruptUARTEv
-                0x00006da2        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006da2                SERCOM::enableDataRegisterEmptyInterruptUART()
- .text._ZN6SERCOM37disableDataRegisterEmptyInterruptUARTEv
                 0x00006daa        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006daa                SERCOM::disableDataRegisterEmptyInterruptUART()
- *fill*         0x00006db2        0x2 
+                0x00006daa                SERCOM::enableDataRegisterEmptyInterruptUART()
+ .text._ZN6SERCOM37disableDataRegisterEmptyInterruptUARTEv
+                0x00006db2        0x8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006db2                SERCOM::disableDataRegisterEmptyInterruptUART()
+ *fill*         0x00006dba        0x2 
  .text._ZN6SERCOM13initClockNVICEv
-                0x00006db4       0xa8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006db4                SERCOM::initClockNVIC()
+                0x00006dbc       0xa8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006dbc                SERCOM::initClockNVIC()
  .text._ZN6SERCOM8initUARTE14SercomUartMode20SercomUartSampleRatem
-                0x00006e5c       0x64 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
-                0x00006e5c                SERCOM::initUART(SercomUartMode, SercomUartSampleRate, unsigned long)
+                0x00006e64       0x64 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+                0x00006e64                SERCOM::initUART(SercomUartMode, SercomUartSampleRate, unsigned long)
  .text._ZN4UartcvbEv
-                0x00006ec0        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00006ec0                Uart::operator bool()
+                0x00006ec8        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00006ec8                Uart::operator bool()
  .text._ZN4Uart5beginEm
-                0x00006ec4       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00006ec4                Uart::begin(unsigned long)
+                0x00006ecc       0x10 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00006ecc                Uart::begin(unsigned long)
  .text._ZN4Uart4peekEv
-                0x00006ed4       0x1a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00006ed4                Uart::peek()
+                0x00006edc       0x1a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00006edc                Uart::peek()
  .text._ZN4Uart3endEv
-                0x00006eee       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00006eee                Uart::end()
+                0x00006ef6       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00006ef6                Uart::end()
  .text._ZN4Uart16extractNbStopBitEt
-                0x00006f0e        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00006f0e                Uart::extractNbStopBit(unsigned short)
+                0x00006f16        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00006f16                Uart::extractNbStopBit(unsigned short)
  .text._ZN4Uart15extractCharSizeEt
-                0x00006f1a       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00006f1a                Uart::extractCharSize(unsigned short)
+                0x00006f22       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00006f22                Uart::extractCharSize(unsigned short)
  .text._ZN4Uart13extractParityEt
-                0x00006f42       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00006f42                Uart::extractParity(unsigned short)
- *fill*         0x00006f56        0x2 
+                0x00006f4a       0x14 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00006f4a                Uart::extractParity(unsigned short)
+ *fill*         0x00006f5e        0x2 
  .text._ZN4Uart5beginEmt
-                0x00006f58       0xf8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00006f58                Uart::begin(unsigned long, unsigned short)
+                0x00006f60       0xf8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00006f60                Uart::begin(unsigned long, unsigned short)
  .text._ZN11RingBufferNILi256EEC2Ev
-                0x00007050       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00007050                RingBufferN<256>::RingBufferN()
-                0x00007050                RingBufferN<256>::RingBufferN()
+                0x00007058       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00007058                RingBufferN<256>::RingBufferN()
+                0x00007058                RingBufferN<256>::RingBufferN()
  .text._ZN4UartC2EP6SERCOMhh11SercomRXPad15SercomUartTXPadhh
-                0x0000706c       0x88 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x0000706c                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char)
-                0x0000706c                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char)
+                0x00007074       0x88 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00007074                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char)
+                0x00007074                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad, unsigned char, unsigned char)
  .text._ZN4UartC2EP6SERCOMhh11SercomRXPad15SercomUartTXPad
-                0x000070f4       0x74 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x000070f4                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
-                0x000070f4                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
+                0x000070fc       0x74 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x000070fc                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
+                0x000070fc                Uart::Uart(SERCOM*, unsigned char, unsigned char, SercomRXPad, SercomUartTXPad)
  .text._ZN11RingBufferNILi256EE9availableEv
-                0x00007168       0x12 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00007168                RingBufferN<256>::available()
+                0x00007170       0x12 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00007170                RingBufferN<256>::available()
  .text._ZN4Uart5flushEv
-                0x0000717a       0x1a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x0000717a                Uart::flush()
+                0x00007182       0x1a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00007182                Uart::flush()
  .text._ZN4Uart9availableEv
-                0x00007194        0xa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00007194                Uart::available()
+                0x0000719c        0xa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x0000719c                Uart::available()
  .text._ZN11RingBufferNILi256EE17availableForStoreEv
-                0x0000719e       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x0000719e                RingBufferN<256>::availableForStore()
+                0x000071a6       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x000071a6                RingBufferN<256>::availableForStore()
  .text._ZN4Uart17availableForWriteEv
-                0x000071be        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x000071be                Uart::availableForWrite()
+                0x000071c6        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x000071c6                Uart::availableForWrite()
  .text._ZN4Uart10IrqHandlerEv
-                0x000071ca       0xcc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x000071ca                Uart::IrqHandler()
- *fill*         0x00007296        0x2 
+                0x000071d2       0xcc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x000071d2                Uart::IrqHandler()
+ *fill*         0x0000729e        0x2 
  .text._ZN4Uart5writeEh
-                0x00007298       0xb4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x00007298                Uart::write(unsigned char)
+                0x000072a0       0xb4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x000072a0                Uart::write(unsigned char)
  .text._ZN4Uart4readEv
-                0x0000734c       0x4c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x0000734c                Uart::read()
+                0x00007354       0x4c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x00007354                Uart::read()
  .text._ZN13PluggableUSB_12getInterfaceEPh
-                0x00007398       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x00007398                PluggableUSB_::getInterface(unsigned char*)
+                0x000073a0       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000073a0                PluggableUSB_::getInterface(unsigned char*)
  .text._ZN13PluggableUSB_13getDescriptorER8USBSetup
-                0x000073c0       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x000073c0                PluggableUSB_::getDescriptor(USBSetup&)
+                0x000073c8       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000073c8                PluggableUSB_::getDescriptor(USBSetup&)
  .text._ZN13PluggableUSB_12getShortNameEPc
-                0x000073e0       0x1e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x000073e0                PluggableUSB_::getShortName(char*)
+                0x000073e8       0x1e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x000073e8                PluggableUSB_::getShortName(char*)
  .text._ZN13PluggableUSB_5setupER8USBSetup
-                0x000073fe       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x000073fe                PluggableUSB_::setup(USBSetup&)
- *fill*         0x0000741e        0x2 
+                0x00007406       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x00007406                PluggableUSB_::setup(USBSetup&)
+ *fill*         0x00007426        0x2 
  .text._Z12PluggableUSBv
-                0x00007420       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
-                0x00007420                PluggableUSB()
+                0x00007428       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+                0x00007428                PluggableUSB()
  .text.__aeabi_atexit
-                0x00007444        0xe e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libstdc++_nano.a(atexit_arm.o)
-                0x00007444                __aeabi_atexit
- *fill*         0x00007452        0x2 
- .text          0x00007454       0x14 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
-                0x00007454                __gnu_thumb1_case_uqi
- .text          0x00007468      0x114 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
-                0x00007468                __aeabi_uidiv
-                0x00007468                __udivsi3
-                0x00007574                __aeabi_uidivmod
- .text          0x0000757c      0x1d4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
-                0x0000757c                __divsi3
-                0x0000757c                __aeabi_idiv
-                0x00007748                __aeabi_idivmod
- .text          0x00007750        0x4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
-                0x00007750                __aeabi_idiv0
-                0x00007750                __aeabi_ldiv0
- .text          0x00007754       0x7c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o)
-                0x00007754                __aeabi_cdrcmple
-                0x00007764                __aeabi_cdcmple
-                0x00007764                __aeabi_cdcmpeq
-                0x00007774                __aeabi_dcmpeq
-                0x00007780                __aeabi_dcmplt
-                0x00007794                __aeabi_dcmple
-                0x000077a8                __aeabi_dcmpgt
-                0x000077bc                __aeabi_dcmpge
- .text          0x000077d0      0x620 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(adddf3.o)
-                0x000077d0                __aeabi_dadd
- .text          0x00007df0      0x668 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
-                0x00007df0                __aeabi_ddiv
- .text          0x00008458       0x74 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
-                0x00008458                __nedf2
-                0x00008458                __eqdf2
- .text          0x000084cc       0xc8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
-                0x000084cc                __gedf2
-                0x000084cc                __gtdf2
- .text          0x00008594       0xc4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
-                0x00008594                __ledf2
-                0x00008594                __ltdf2
- .text          0x00008658      0x500 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
-                0x00008658                __aeabi_dmul
- .text          0x00008b58      0x62c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
-                0x00008b58                __aeabi_dsub
- .text          0x00009184       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(unorddf2.o)
-                0x00009184                __aeabi_dcmpun
- .text          0x000091c4       0x68 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
-                0x000091c4                __aeabi_d2iz
- .text          0x0000922c       0x70 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
-                0x0000922c                __aeabi_ui2d
- .text          0x0000929c       0x3c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
-                0x0000929c                __clzsi2
+                0x0000744c        0xe e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libstdc++_nano.a(atexit_arm.o)
+                0x0000744c                __aeabi_atexit
+ *fill*         0x0000745a        0x2 
+ .text          0x0000745c       0x14 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
+                0x0000745c                __gnu_thumb1_case_uqi
+ .text          0x00007470      0x114 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+                0x00007470                __aeabi_uidiv
+                0x00007470                __udivsi3
+                0x0000757c                __aeabi_uidivmod
+ .text          0x00007584      0x1d4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+                0x00007584                __divsi3
+                0x00007584                __aeabi_idiv
+                0x00007750                __aeabi_idivmod
+ .text          0x00007758        0x4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_dvmd_tls.o)
+                0x00007758                __aeabi_idiv0
+                0x00007758                __aeabi_ldiv0
+ .text          0x0000775c       0x7c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_arm_cmpdf2.o)
+                0x0000775c                __aeabi_cdrcmple
+                0x0000776c                __aeabi_cdcmple
+                0x0000776c                __aeabi_cdcmpeq
+                0x0000777c                __aeabi_dcmpeq
+                0x00007788                __aeabi_dcmplt
+                0x0000779c                __aeabi_dcmple
+                0x000077b0                __aeabi_dcmpgt
+                0x000077c4                __aeabi_dcmpge
+ .text          0x000077d8      0x620 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(adddf3.o)
+                0x000077d8                __aeabi_dadd
+ .text          0x00007df8      0x668 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+                0x00007df8                __aeabi_ddiv
+ .text          0x00008460       0x74 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
+                0x00008460                __nedf2
+                0x00008460                __eqdf2
+ .text          0x000084d4       0xc8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
+                0x000084d4                __gedf2
+                0x000084d4                __gtdf2
+ .text          0x0000859c       0xc4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
+                0x0000859c                __ledf2
+                0x0000859c                __ltdf2
+ .text          0x00008660      0x500 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
+                0x00008660                __aeabi_dmul
+ .text          0x00008b60      0x62c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
+                0x00008b60                __aeabi_dsub
+ .text          0x0000918c       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(unorddf2.o)
+                0x0000918c                __aeabi_dcmpun
+ .text          0x000091cc       0x68 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
+                0x000091cc                __aeabi_d2iz
+ .text          0x00009234       0x70 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
+                0x00009234                __aeabi_ui2d
+ .text          0x000092a4       0x3c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_clzsi2.o)
+                0x000092a4                __clzsi2
  .text.__cxa_atexit
-                0x000092d8       0x1c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-cxa_atexit.o)
-                0x000092d8                __cxa_atexit
+                0x000092e0       0x1c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-cxa_atexit.o)
+                0x000092e0                __cxa_atexit
  .text.__libc_init_array
-                0x000092f4       0x48 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
-                0x000092f4                __libc_init_array
+                0x000092fc       0x48 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+                0x000092fc                __libc_init_array
  .text.__locale_ctype_ptr_l
-                0x0000933c        0x6 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-locale.o)
-                0x0000933c                __locale_ctype_ptr_l
- *fill*         0x00009342        0x2 
- .text.malloc   0x00009344       0x14 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-malloc.o)
-                0x00009344                malloc
- .text.free     0x00009358       0x14 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-malloc.o)
-                0x00009358                free
+                0x00009344        0x6 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-locale.o)
+                0x00009344                __locale_ctype_ptr_l
+ *fill*         0x0000934a        0x2 
+ .text.malloc   0x0000934c       0x14 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-malloc.o)
+                0x0000934c                malloc
+ .text.free     0x00009360       0x14 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-malloc.o)
+                0x00009360                free
  .text.__ascii_mbtowc
-                0x0000936c       0x24 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mbtowc_r.o)
-                0x0000936c                __ascii_mbtowc
- .text.memcmp   0x00009390       0x1e e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memcmp.o)
-                0x00009390                memcmp
- .text.memcpy   0x000093ae       0x12 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memcpy-stub.o)
-                0x000093ae                memcpy
- .text.memmove  0x000093c0       0x24 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memmove.o)
-                0x000093c0                memmove
- .text.memset   0x000093e4       0x10 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
-                0x000093e4                memset
- .text._free_r  0x000093f4       0x94 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-freer.o)
-                0x000093f4                _free_r
+                0x00009374       0x24 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mbtowc_r.o)
+                0x00009374                __ascii_mbtowc
+ .text.memcmp   0x00009398       0x1e e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memcmp.o)
+                0x00009398                memcmp
+ .text.memcpy   0x000093b6       0x12 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memcpy-stub.o)
+                0x000093b6                memcpy
+ .text.memmove  0x000093c8       0x24 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memmove.o)
+                0x000093c8                memmove
+ .text.memset   0x000093ec       0x10 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+                0x000093ec                memset
+ .text._free_r  0x000093fc       0x94 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-freer.o)
+                0x000093fc                _free_r
  .text._malloc_r
-                0x00009488       0xbc e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-mallocr.o)
-                0x00009488                _malloc_r
- .text.__cvt    0x00009544       0xc8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x00009544                __cvt
+                0x00009490       0xbc e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-mallocr.o)
+                0x00009490                _malloc_r
+ .text.__cvt    0x0000954c       0xc8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000954c                __cvt
  .text.__exponent
-                0x0000960c       0x70 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x0000960c                __exponent
+                0x00009614       0x70 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x00009614                __exponent
  .text._printf_float
-                0x0000967c      0x498 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x0000967c                _printf_float
+                0x00009684      0x498 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x00009684                _printf_float
  .text._printf_common
-                0x00009b14       0xda e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00009b14                _printf_common
- *fill*         0x00009bee        0x2 
+                0x00009b1c       0xda e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00009b1c                _printf_common
+ *fill*         0x00009bf6        0x2 
  .text._printf_i
-                0x00009bf0      0x234 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00009bf0                _printf_i
- .text.realloc  0x00009e24       0x14 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-realloc.o)
-                0x00009e24                realloc
- .text._sbrk_r  0x00009e38       0x24 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-sbrkr.o)
-                0x00009e38                _sbrk_r
- .text.sprintf  0x00009e5c       0x44 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-sprintf.o)
-                0x00009e5c                siprintf
-                0x00009e5c                sprintf
- .text.strcpy   0x00009ea0       0x10 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strcpy.o)
-                0x00009ea0                strcpy
- .text          0x00009eb0        0xe e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strlen.o)
-                0x00009eb0                strlen
+                0x00009bf8      0x234 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00009bf8                _printf_i
+ .text.realloc  0x00009e2c       0x14 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-realloc.o)
+                0x00009e2c                realloc
+ .text._sbrk_r  0x00009e40       0x24 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-sbrkr.o)
+                0x00009e40                _sbrk_r
+ .text.sprintf  0x00009e64       0x44 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-sprintf.o)
+                0x00009e64                siprintf
+                0x00009e64                sprintf
+ .text.strcpy   0x00009ea8       0x10 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strcpy.o)
+                0x00009ea8                strcpy
+ .text          0x00009eb8        0xe e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strlen.o)
+                0x00009eb8                strlen
  .text._strtoul_l.isra.0
-                0x00009ebe      0x10e e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strtoul.o)
- .text.strtoul  0x00009fcc       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strtoul.o)
-                0x00009fcc                strtoul
+                0x00009ec6      0x10e e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strtoul.o)
+ .text.strtoul  0x00009fd4       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strtoul.o)
+                0x00009fd4                strtoul
  .text.__ascii_wctomb
-                0x00009ff4       0x18 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-wctomb_r.o)
-                0x00009ff4                __ascii_wctomb
- .text.quorem   0x0000a00c      0x108 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-dtoa.o)
- .text._dtoa_r  0x0000a114      0xbd0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-dtoa.o)
-                0x0000a114                _dtoa_r
+                0x00009ffc       0x18 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-wctomb_r.o)
+                0x00009ffc                __ascii_wctomb
+ .text.quorem   0x0000a014      0x108 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x0000a11c      0xbd0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-dtoa.o)
+                0x0000a11c                _dtoa_r
  .text._localeconv_r
-                0x0000ace4       0x18 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-localeconv.o)
-                0x0000ace4                _localeconv_r
- .text.memchr   0x0000acfc       0x16 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memchr-stub.o)
-                0x0000acfc                memchr
+                0x0000acec       0x18 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-localeconv.o)
+                0x0000acec                _localeconv_r
+ .text.memchr   0x0000ad04       0x16 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memchr-stub.o)
+                0x0000ad04                memchr
  .text.__malloc_lock
-                0x0000ad12        0x2 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mlock.o)
-                0x0000ad12                __malloc_lock
+                0x0000ad1a        0x2 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mlock.o)
+                0x0000ad1a                __malloc_lock
  .text.__malloc_unlock
-                0x0000ad14        0x2 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mlock.o)
-                0x0000ad14                __malloc_unlock
- .text._Balloc  0x0000ad16       0x70 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000ad16                _Balloc
- .text._Bfree   0x0000ad86       0x32 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000ad86                _Bfree
+                0x0000ad1c        0x2 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mlock.o)
+                0x0000ad1c                __malloc_unlock
+ .text._Balloc  0x0000ad1e       0x70 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000ad1e                _Balloc
+ .text._Bfree   0x0000ad8e       0x32 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000ad8e                _Bfree
  .text.__multadd
-                0x0000adb8       0x78 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000adb8                __multadd
+                0x0000adc0       0x78 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000adc0                __multadd
  .text.__hi0bits
-                0x0000ae30       0x34 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000ae30                __hi0bits
+                0x0000ae38       0x34 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000ae38                __hi0bits
  .text.__lo0bits
-                0x0000ae64       0x5e e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000ae64                __lo0bits
- .text.__i2b    0x0000aec2       0x12 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000aec2                __i2b
+                0x0000ae6c       0x5e e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000ae6c                __lo0bits
+ .text.__i2b    0x0000aeca       0x12 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000aeca                __i2b
  .text.__multiply
-                0x0000aed4      0x11e e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000aed4                __multiply
- *fill*         0x0000aff2        0x2 
+                0x0000aedc      0x11e e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000aedc                __multiply
+ *fill*         0x0000affa        0x2 
  .text.__pow5mult
-                0x0000aff4       0xa4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000aff4                __pow5mult
+                0x0000affc       0xa4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000affc                __pow5mult
  .text.__lshift
-                0x0000b098       0xa2 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000b098                __lshift
- .text.__mcmp   0x0000b13a       0x32 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000b13a                __mcmp
- .text.__mdiff  0x0000b16c       0xc8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000b16c                __mdiff
- .text.__d2b    0x0000b234       0xa8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000b234                __d2b
+                0x0000b0a0       0xa2 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000b0a0                __lshift
+ .text.__mcmp   0x0000b142       0x32 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000b142                __mcmp
+ .text.__mdiff  0x0000b174       0xc8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000b174                __mdiff
+ .text.__d2b    0x0000b23c       0xa8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000b23c                __d2b
  .text._calloc_r
-                0x0000b2dc       0x1c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-callocr.o)
-                0x0000b2dc                _calloc_r
+                0x0000b2e4       0x1c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-callocr.o)
+                0x0000b2e4                _calloc_r
  .text._realloc_r
-                0x0000b2f8       0x4c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-reallocr.o)
-                0x0000b2f8                _realloc_r
+                0x0000b300       0x4c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000b300                _realloc_r
  .text.__ssputs_r
-                0x0000b344       0xc4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000b344                __ssputs_r
+                0x0000b34c       0xc4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000b34c                __ssputs_r
  .text._svfprintf_r
-                0x0000b408      0x208 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x0000b408                _svfiprintf_r
-                0x0000b408                _svfprintf_r
+                0x0000b410      0x208 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000b410                _svfiprintf_r
+                0x0000b410                _svfprintf_r
  .text._malloc_usable_size_r
-                0x0000b610       0x10 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-msizer.o)
-                0x0000b610                _malloc_usable_size_r
- .text          0x0000b620       0x84 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
-                0x0000b620                __aeabi_i2d
- .text._sbrk    0x0000b6a4       0x1c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(sbrk.o)
-                0x0000b6a4                _sbrk
+                0x0000b618       0x10 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-msizer.o)
+                0x0000b618                _malloc_usable_size_r
+ .text          0x0000b628       0x84 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
+                0x0000b628                __aeabi_i2d
+ .text._sbrk    0x0000b6ac       0x1c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(sbrk.o)
+                0x0000b6ac                _sbrk
  *(.init)
- .init          0x0000b6c0        0x4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
-                0x0000b6c0                _init
- .init          0x0000b6c4        0x8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ .init          0x0000b6c8        0x4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x0000b6c8                _init
+ .init          0x0000b6cc        0x8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
  *(.fini)
- .fini          0x0000b6cc        0x4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
-                0x0000b6cc                _fini
- .fini          0x0000b6d0        0x8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
+ .fini          0x0000b6d4        0x4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crti.o
+                0x0000b6d4                _fini
+ .fini          0x0000b6d8        0x8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -11814,184 +11808,184 @@ LOAD e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none
  *(.dtors)
  *(.rodata*)
  .rodata._ZTV12BLEAttribute
-                0x0000b6d8       0x14 ArduinoBLE/BLEAttribute.o
-                0x0000b6d8                vtable for BLEAttribute
+                0x0000b6e0       0x14 ArduinoBLE/BLEAttribute.o
+                0x0000b6e0                vtable for BLEAttribute
  .rodata._ZTV17BLECharacteristic
-                0x0000b6ec       0x10 ArduinoBLE/BLECharacteristic.o
-                0x0000b6ec                vtable for BLECharacteristic
+                0x0000b6f4       0x10 ArduinoBLE/BLECharacteristic.o
+                0x0000b6f4                vtable for BLECharacteristic
  .rodata._ZNK9BLEDevice7addressEv.str1.1
-                0x0000b6fc       0x1e ArduinoBLE/BLEDevice.o
- *fill*         0x0000b71a        0x2 
+                0x0000b704       0x1e ArduinoBLE/BLEDevice.o
+ *fill*         0x0000b722        0x2 
  .rodata._ZTV9BLEDevice
-                0x0000b71c       0x34 ArduinoBLE/BLEDevice.o
-                0x0000b71c                vtable for BLEDevice
+                0x0000b724       0x34 ArduinoBLE/BLEDevice.o
+                0x0000b724                vtable for BLEDevice
  .rodata._ZNK10BLEService4uuidEv.str1.1
-                0x0000b750       0x1e ArduinoBLE/BLEService.o
+                0x0000b758       0x1e ArduinoBLE/BLEService.o
                                   0x1 (size before relaxing)
  .rodata._ZTV10BLEService
-                0x0000b750       0x10 ArduinoBLE/BLEService.o
-                0x0000b750                vtable for BLEService
+                0x0000b758       0x10 ArduinoBLE/BLEService.o
+                0x0000b758                vtable for BLEService
  .rodata._ZTV23BLEStringCharacteristic
-                0x0000b760       0x10 ArduinoBLE/BLEStringCharacteristic.o
-                0x0000b760                vtable for BLEStringCharacteristic
+                0x0000b768       0x10 ArduinoBLE/BLEStringCharacteristic.o
+                0x0000b768                vtable for BLEStringCharacteristic
  .rodata._ZTV22BLETypedCharacteristicIhE
-                0x0000b770       0x10 ArduinoBLE/BLETypedCharacteristics.o
-                0x0000b770                vtable for BLETypedCharacteristic<unsigned char>
+                0x0000b778       0x10 ArduinoBLE/BLETypedCharacteristics.o
+                0x0000b778                vtable for BLETypedCharacteristic<unsigned char>
  .rodata._ZTV21BLEByteCharacteristic
-                0x0000b780       0x10 ArduinoBLE/BLETypedCharacteristics.o
-                0x0000b780                vtable for BLEByteCharacteristic
+                0x0000b788       0x10 ArduinoBLE/BLETypedCharacteristics.o
+                0x0000b788                vtable for BLEByteCharacteristic
  .rodata._ZTV22BLETypedCharacteristicItE
-                0x0000b790       0x10 ArduinoBLE/BLETypedCharacteristics.o
-                0x0000b790                vtable for BLETypedCharacteristic<unsigned short>
+                0x0000b798       0x10 ArduinoBLE/BLETypedCharacteristics.o
+                0x0000b798                vtable for BLETypedCharacteristic<unsigned short>
  .rodata._ZTV21BLEWordCharacteristic
-                0x0000b7a0       0x10 ArduinoBLE/BLETypedCharacteristics.o
-                0x0000b7a0                vtable for BLEWordCharacteristic
+                0x0000b7a8       0x10 ArduinoBLE/BLETypedCharacteristics.o
+                0x0000b7a8                vtable for BLEWordCharacteristic
  .rodata._ZN22BLELocalCharacteristicC2EPKchib.str1.1
-                0x0000b7b0        0x5 ArduinoBLE/local/BLELocalCharacteristic.o
- *fill*         0x0000b7b5        0x3 
+                0x0000b7b8        0x5 ArduinoBLE/local/BLELocalCharacteristic.o
+ *fill*         0x0000b7bd        0x3 
  .rodata._ZTV22BLELocalCharacteristic
-                0x0000b7b8       0x14 ArduinoBLE/local/BLELocalCharacteristic.o
-                0x0000b7b8                vtable for BLELocalCharacteristic
+                0x0000b7c0       0x14 ArduinoBLE/local/BLELocalCharacteristic.o
+                0x0000b7c0                vtable for BLELocalCharacteristic
  .rodata._ZTV18BLELocalDescriptor
-                0x0000b7cc       0x14 ArduinoBLE/local/BLELocalDescriptor.o
-                0x0000b7cc                vtable for BLELocalDescriptor
+                0x0000b7d4       0x14 ArduinoBLE/local/BLELocalDescriptor.o
+                0x0000b7d4                vtable for BLELocalDescriptor
  .rodata._ZNK14BLELocalDevice7addressEv.str1.1
-                0x0000b7e0       0x1e ArduinoBLE/local/BLELocalDevice.o
+                0x0000b7e8       0x1e ArduinoBLE/local/BLELocalDevice.o
  .rodata._ZTV14BLELocalDevice
-                0x0000b7e0       0x34 ArduinoBLE/local/BLELocalDevice.o
-                0x0000b7e0                vtable for BLELocalDevice
+                0x0000b7e8       0x34 ArduinoBLE/local/BLELocalDevice.o
+                0x0000b7e8                vtable for BLELocalDevice
  .rodata._ZTV15BLELocalService
-                0x0000b814       0x14 ArduinoBLE/local/BLELocalService.o
-                0x0000b814                vtable for BLELocalService
+                0x0000b81c       0x14 ArduinoBLE/local/BLELocalService.o
+                0x0000b81c                vtable for BLELocalService
  .rodata._ZTV8ATTClass
-                0x0000b828       0x10 ArduinoBLE/utility/ATT.o
-                0x0000b828                vtable for ATTClass
+                0x0000b830       0x10 ArduinoBLE/utility/ATT.o
+                0x0000b830                vtable for ATTClass
  .rodata._ZTV8GAPClass
-                0x0000b838       0x10 ArduinoBLE/utility/GAP.o
-                0x0000b838                vtable for GAPClass
+                0x0000b840       0x10 ArduinoBLE/utility/GAP.o
+                0x0000b840                vtable for GAPClass
  .rodata._ZN9GATTClass5beginEv.str1.1
-                0x0000b848        0x8 ArduinoBLE/utility/GATT.o
+                0x0000b850        0x8 ArduinoBLE/utility/GATT.o
  .rodata._ZN9GATTClassC2Ev.str1.1
-                0x0000b850       0x19 ArduinoBLE/utility/GATT.o
- *fill*         0x0000b869        0x3 
+                0x0000b858       0x19 ArduinoBLE/utility/GATT.o
+ *fill*         0x0000b871        0x3 
  .rodata._ZTV9GATTClass
-                0x0000b86c       0x10 ArduinoBLE/utility/GATT.o
-                0x0000b86c                vtable for GATTClass
+                0x0000b874       0x10 ArduinoBLE/utility/GATT.o
+                0x0000b874                vtable for GATTClass
  .rodata._ZN8HCIClass10sendAclPktEthhPv.str1.1
-                0x0000b87c       0x13 ArduinoBLE/utility/HCI.o
+                0x0000b884       0x13 ArduinoBLE/utility/HCI.o
  .rodata._ZN8HCIClass11sendCommandEthPv.str1.1
-                0x0000b88f       0x13 ArduinoBLE/utility/HCI.o
+                0x0000b897       0x13 ArduinoBLE/utility/HCI.o
  .rodata._ZN8HCIClass4pollEm.str1.1
-                0x0000b8a2       0x24 ArduinoBLE/utility/HCI.o
+                0x0000b8aa       0x24 ArduinoBLE/utility/HCI.o
  .rodata._ZN8HCIClass7dumpPktEPKchPh.str1.1
-                0x0000b8c6       0x24 ArduinoBLE/utility/HCI.o
+                0x0000b8ce       0x24 ArduinoBLE/utility/HCI.o
                                   0x2 (size before relaxing)
- *fill*         0x0000b8c6        0x2 
+ *fill*         0x0000b8ce        0x2 
  .rodata._ZTV8HCIClass
-                0x0000b8c8       0x10 ArduinoBLE/utility/HCI.o
-                0x0000b8c8                vtable for HCIClass
+                0x0000b8d0       0x10 ArduinoBLE/utility/HCI.o
+                0x0000b8d0                vtable for HCIClass
  .rodata.HCITransport
-                0x0000b8d8        0x4 ArduinoBLE/utility/HCIUartTransport.o
-                0x0000b8d8                HCITransport
+                0x0000b8e0        0x4 ArduinoBLE/utility/HCIUartTransport.o
+                0x0000b8e0                HCITransport
  .rodata._ZTV21HCIUartTransportClass
-                0x0000b8dc       0x2c ArduinoBLE/utility/HCIUartTransport.o
-                0x0000b8dc                vtable for HCIUartTransportClass
+                0x0000b8e4       0x2c ArduinoBLE/utility/HCIUartTransport.o
+                0x0000b8e4                vtable for HCIUartTransportClass
  .rodata._ZTV19L2CAPSignalingClass
-                0x0000b908       0x10 ArduinoBLE/utility/L2CAPSignaling.o
-                0x0000b908                vtable for L2CAPSignalingClass
+                0x0000b910       0x10 ArduinoBLE/utility/L2CAPSignaling.o
+                0x0000b910                vtable for L2CAPSignalingClass
  .rodata.loop.str1.1
-                0x0000b918       0x33 Sketch.o
+                0x0000b920       0x33 Sketch.o
  .rodata.setup.str1.1
-                0x0000b94b       0x39 Sketch.o
+                0x0000b953       0x39 Sketch.o
  .rodata._ZN10CSCService5setupEv.str1.1
-                0x0000b984       0x14 System/CSCService.o
+                0x0000b98c       0x14 System/CSCService.o
  .rodata._ZN9DIService5setupEv.str1.1
-                0x0000b998       0x33 System/DIService.o
+                0x0000b9a0       0x33 System/DIService.o
  .rodata._ZN5Print7printlnEv.str1.1
-                0x0000b9cb        0x3 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- *fill*         0x0000b9ce        0x2 
+                0x0000b9d3        0x3 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ *fill*         0x0000b9d6        0x2 
  .rodata._ZTV7Serial_
-                0x0000b9d0       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
-                0x0000b9d0                vtable for Serial_
+                0x0000b9d8       0x24 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+                0x0000b9d8                vtable for Serial_
  .rodata._ZTV26DoubleBufferedEPOutHandler
-                0x0000b9f4       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
-                0x0000b9f4                vtable for DoubleBufferedEPOutHandler
+                0x0000b9fc       0x1c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000b9fc                vtable for DoubleBufferedEPOutHandler
  .rodata._ZL14STRING_PRODUCT
-                0x0000ba10       0x16 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000ba18       0x16 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .rodata._ZL15STRING_LANGUAGE
-                0x0000ba26        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000ba2e        0x4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .rodata._ZL19STRING_MANUFACTURER
-                0x0000ba2a        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000ba32        0xc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .rodata._ZL21USB_DeviceDescriptorB
-                0x0000ba36       0x12 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+                0x0000ba3e       0x12 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
  .rodata.g_APinDescription
-                0x0000ba48      0x360 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
-                0x0000ba48                g_APinDescription
+                0x0000ba50      0x360 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+                0x0000ba50                g_APinDescription
  .rodata._ZTV4Uart
-                0x0000bda8       0x34 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
-                0x0000bda8                vtable for Uart
- .rodata        0x0000bddc       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
- .rodata        0x0000be1c       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
+                0x0000bdb0       0x34 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+                0x0000bdb0                vtable for Uart
+ .rodata        0x0000bde4       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .rodata        0x0000be24       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
  .rodata._setlocale_r.str1.1
-                0x0000be5c        0x6 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-locale.o)
+                0x0000be64        0x6 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x0000be62        0x2 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-locale.o)
+                0x0000be6a        0x2 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-locale.o)
  .rodata._printf_float.str1.1
-                0x0000be64       0x10 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000be6c       0x10 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
                                  0x12 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x0000be74       0x22 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000be7c       0x22 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata._ctype_
-                0x0000be96      0x101 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-ctype_.o)
-                0x0000be96                _ctype_
+                0x0000be9e      0x101 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-ctype_.o)
+                0x0000be9e                _ctype_
  .rodata._dtoa_r.str1.1
-                0x0000bf97        0xd e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-dtoa.o)
+                0x0000bf9f        0xd e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-dtoa.o)
                                   0xf (size before relaxing)
- *fill*         0x0000bfa4        0x4 
+ *fill*         0x0000bfac        0x4 
  .rodata.__mprec_bigtens
-                0x0000bfa8       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000bfa8                __mprec_bigtens
+                0x0000bfb0       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000bfb0                __mprec_bigtens
  .rodata.__mprec_tens
-                0x0000bfd0       0xc8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
-                0x0000bfd0                __mprec_tens
+                0x0000bfd8       0xc8 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000bfd8                __mprec_tens
  .rodata.p05.6047
-                0x0000c098        0xc e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+                0x0000c0a0        0xc e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
  .rodata._svfprintf_r.str1.1
-                0x0000c0a4       0x11 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000c0ac       0x11 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-svfprintf.o)
  *(.eh_frame*)
- *fill*         0x0000c0b5        0x3 
- .eh_frame      0x0000c0b8        0x0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
- .eh_frame      0x0000c0b8        0x4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
+ *fill*         0x0000c0bd        0x3 
+ .eh_frame      0x0000c0c0        0x0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+ .eh_frame      0x0000c0c0        0x4 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtend.o
 
-.glue_7         0x0000c0bc        0x0
- .glue_7        0x0000c0bc        0x0 linker stubs
+.glue_7         0x0000c0c4        0x0
+ .glue_7        0x0000c0c4        0x0 linker stubs
 
-.glue_7t        0x0000c0bc        0x0
- .glue_7t       0x0000c0bc        0x0 linker stubs
+.glue_7t        0x0000c0c4        0x0
+ .glue_7t       0x0000c0c4        0x0 linker stubs
 
-.vfp11_veneer   0x0000c0bc        0x0
- .vfp11_veneer  0x0000c0bc        0x0 linker stubs
+.vfp11_veneer   0x0000c0c4        0x0
+ .vfp11_veneer  0x0000c0c4        0x0 linker stubs
 
-.v4_bx          0x0000c0bc        0x0
- .v4_bx         0x0000c0bc        0x0 linker stubs
+.v4_bx          0x0000c0c4        0x0
+ .v4_bx         0x0000c0c4        0x0 linker stubs
 
-.iplt           0x0000c0bc        0x0
- .iplt          0x0000c0bc        0x0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.iplt           0x0000c0c4        0x0
+ .iplt          0x0000c0c4        0x0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.rel.dyn        0x0000c0bc        0x0
- .rel.iplt      0x0000c0bc        0x0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
+.rel.dyn        0x0000c0c4        0x0
+ .rel.iplt      0x0000c0c4        0x0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000c0bc                __exidx_start = .
+                0x0000c0c4                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000c0bc                __exidx_end = .
-                0x0000c0bc                __etext = .
+                0x0000c0c4                __exidx_end = .
+                0x0000c0c4                __etext = .
 
-.data           0x20000000      0x2b0 load address 0x0000c0bc
+.data           0x20000000      0x2b0 load address 0x0000c0c4
                 0x20000000                __data_start__ = .
  *(vtable)
  *(.data*)
@@ -12063,10 +12057,10 @@ LOAD e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none
  *fill*         0x200002a4        0xc 
                 0x200002b0                __data_end__ = .
 
-.igot.plt       0x200002b0        0x0 load address 0x0000c36c
+.igot.plt       0x200002b0        0x0 load address 0x0000c374
  .igot.plt      0x200002b0        0x0 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/crtbegin.o
 
-.bss            0x200002b0      0xe18 load address 0x0000c36c
+.bss            0x200002b0      0xe18 load address 0x0000c374
                 0x200002b0                . = ALIGN (0x4)
                 0x200002b0                __bss_start__ = .
  *(.bss*)
@@ -12440,7 +12434,7 @@ OUTPUT(RdtBLE.elf elf32-littlearm)
  .comment       0x00000059       0x5a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
  .comment       0x00000059       0x5a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
 
-.debug_info     0x00000000    0xbfab9
+.debug_info     0x00000000    0xbf9db
  .debug_info    0x00000000      0x5b4 ArduinoBLE/BLEAttribute.o
  .debug_info    0x000005b4      0xc5d ArduinoBLE/BLECharacteristic.o
  .debug_info    0x00001211     0x5fce ArduinoBLE/BLEDevice.o
@@ -12459,32 +12453,32 @@ OUTPUT(RdtBLE.elf elf32-littlearm)
  .debug_info    0x000438f9     0x4f32 ArduinoBLE/utility/HCIUartTransport.o
  .debug_info    0x0004882b     0x514c ArduinoBLE/utility/L2CAPSignaling.o
  .debug_info    0x0004d977     0x4f00 Sketch.o
- .debug_info    0x00052877     0x50e4 System/BatteryService.o
- .debug_info    0x0005795b     0x59d0 System/CSCService.o
- .debug_info    0x0005d32b     0x5ecf System/DIService.o
- .debug_info    0x000631fa     0x5600 System/LedService.o
- .debug_info    0x000687fa     0x63bd System/Tc5Timer.o
- .debug_info    0x0006ebb7     0x126f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
- .debug_info    0x0006fe26     0x14c8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
- .debug_info    0x000712ee       0x72 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_info    0x00071360     0x4833 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00075b93     0x107d E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_info    0x00076c10     0x6ff1 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x0007dc01     0x4e19 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
- .debug_info    0x00082a1a     0x388b E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
- .debug_info    0x000862a5     0x704f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_info    0x0008d2f4     0xc5ea E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_info    0x000998de     0x3047 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x0009c925     0x548c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_info    0x000a1db1     0x1963 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x000a3714     0x1946 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
- .debug_info    0x000a505a     0x4b92 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_info    0x000a9bec     0x762a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
- .debug_info    0x000b1216     0x5300 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
- .debug_info    0x000b6516     0x79a3 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
- .debug_info    0x000bdeb9     0x1c00 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_info    0x00052877     0x5082 System/BatteryService.o
+ .debug_info    0x000578f9     0x59ee System/CSCService.o
+ .debug_info    0x0005d2e7     0x5ecf System/DIService.o
+ .debug_info    0x000631b6     0x5566 System/LedService.o
+ .debug_info    0x0006871c     0x63bd System/Tc5Timer.o
+ .debug_info    0x0006ead9     0x126f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+ .debug_info    0x0006fd48     0x14c8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+ .debug_info    0x00071210       0x72 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x00071282     0x4833 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00075ab5     0x107d E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_info    0x00076b32     0x6ff1 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x0007db23     0x4e19 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+ .debug_info    0x0008293c     0x388b E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
+ .debug_info    0x000861c7     0x704f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_info    0x0008d216     0xc5ea E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_info    0x00099800     0x3047 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x0009c847     0x548c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_info    0x000a1cd3     0x1963 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x000a3636     0x1946 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
+ .debug_info    0x000a4f7c     0x4b92 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_info    0x000a9b0e     0x762a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+ .debug_info    0x000b1138     0x5300 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+ .debug_info    0x000b6438     0x79a3 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+ .debug_info    0x000bdddb     0x1c00 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
 
-.debug_abbrev   0x00000000     0xedf3
+.debug_abbrev   0x00000000     0xee1e
  .debug_abbrev  0x00000000      0x261 ArduinoBLE/BLEAttribute.o
  .debug_abbrev  0x00000261      0x2d8 ArduinoBLE/BLECharacteristic.o
  .debug_abbrev  0x00000539      0x70c ArduinoBLE/BLEDevice.o
@@ -12503,32 +12497,32 @@ OUTPUT(RdtBLE.elf elf32-littlearm)
  .debug_abbrev  0x000057d2      0x6fb ArduinoBLE/utility/HCIUartTransport.o
  .debug_abbrev  0x00005ecd      0x723 ArduinoBLE/utility/L2CAPSignaling.o
  .debug_abbrev  0x000065f0      0x55a Sketch.o
- .debug_abbrev  0x00006b4a      0x6d0 System/BatteryService.o
- .debug_abbrev  0x0000721a      0x738 System/CSCService.o
- .debug_abbrev  0x00007952      0x6b5 System/DIService.o
- .debug_abbrev  0x00008007      0x745 System/LedService.o
- .debug_abbrev  0x0000874c      0x79f System/Tc5Timer.o
- .debug_abbrev  0x00008eeb      0x298 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
- .debug_abbrev  0x00009183      0x2bc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
- .debug_abbrev  0x0000943f       0x4e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_abbrev  0x0000948d      0x4da E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x00009967      0x2e5 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_abbrev  0x00009c4c      0x78f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x0000a3db      0x586 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
- .debug_abbrev  0x0000a961      0x28f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
- .debug_abbrev  0x0000abf0      0x8a1 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_abbrev  0x0000b491      0xbbb E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_abbrev  0x0000c04c      0x35c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x0000c3a8      0x450 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_abbrev  0x0000c7f8      0x2fd E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x0000caf5      0x2ea E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
- .debug_abbrev  0x0000cddf      0x6b5 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_abbrev  0x0000d494      0x598 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
- .debug_abbrev  0x0000da2c      0x6c5 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
- .debug_abbrev  0x0000e0f1      0x813 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
- .debug_abbrev  0x0000e904      0x4ef E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_abbrev  0x00006b4a      0x6e6 System/BatteryService.o
+ .debug_abbrev  0x00007230      0x744 System/CSCService.o
+ .debug_abbrev  0x00007974      0x6b5 System/DIService.o
+ .debug_abbrev  0x00008029      0x74e System/LedService.o
+ .debug_abbrev  0x00008777      0x79f System/Tc5Timer.o
+ .debug_abbrev  0x00008f16      0x298 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+ .debug_abbrev  0x000091ae      0x2bc E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+ .debug_abbrev  0x0000946a       0x4e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x000094b8      0x4da E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00009992      0x2e5 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_abbrev  0x00009c77      0x78f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x0000a406      0x586 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+ .debug_abbrev  0x0000a98c      0x28f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
+ .debug_abbrev  0x0000ac1b      0x8a1 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_abbrev  0x0000b4bc      0xbbb E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_abbrev  0x0000c077      0x35c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x0000c3d3      0x450 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_abbrev  0x0000c823      0x2fd E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x0000cb20      0x2ea E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
+ .debug_abbrev  0x0000ce0a      0x6b5 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_abbrev  0x0000d4bf      0x598 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+ .debug_abbrev  0x0000da57      0x6c5 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+ .debug_abbrev  0x0000e11c      0x813 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+ .debug_abbrev  0x0000e92f      0x4ef E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
 
-.debug_loc      0x00000000    0x14cdc
+.debug_loc      0x00000000    0x14cae
  .debug_loc     0x00000000      0x200 ArduinoBLE/BLEAttribute.o
  .debug_loc     0x00000200      0x70d ArduinoBLE/BLECharacteristic.o
  .debug_loc     0x0000090d      0x499 ArduinoBLE/BLEDevice.o
@@ -12548,28 +12542,28 @@ OUTPUT(RdtBLE.elf elf32-littlearm)
  .debug_loc     0x0000995b      0x42c ArduinoBLE/utility/L2CAPSignaling.o
  .debug_loc     0x00009d87       0x6a Sketch.o
  .debug_loc     0x00009df1      0x23a System/BatteryService.o
- .debug_loc     0x0000a02b      0x2de System/CSCService.o
- .debug_loc     0x0000a309      0x16c System/DIService.o
- .debug_loc     0x0000a475      0x50c System/LedService.o
- .debug_loc     0x0000a981      0x433 System/Tc5Timer.o
- .debug_loc     0x0000adb4       0x9c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
- .debug_loc     0x0000ae50      0x15b E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
- .debug_loc     0x0000afab       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_loc     0x0000afcb       0x82 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_loc     0x0000b04d     0x16fb E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x0000c748       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
- .debug_loc     0x0000c768       0x4e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
- .debug_loc     0x0000c7b6      0x70f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_loc     0x0000cec5     0x2be4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_loc     0x0000faa9       0xcb E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x0000fb74      0x5d7 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_loc     0x0001014b      0x18c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_loc     0x000102d7      0x14e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
- .debug_loc     0x00010425     0x2c0c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_loc     0x00013031       0xaa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
- .debug_loc     0x000130db      0xd23 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
- .debug_loc     0x00013dfe      0xbde E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
- .debug_loc     0x000149dc      0x300 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_loc     0x0000a02b      0x2dc System/CSCService.o
+ .debug_loc     0x0000a307      0x16c System/DIService.o
+ .debug_loc     0x0000a473      0x4e0 System/LedService.o
+ .debug_loc     0x0000a953      0x433 System/Tc5Timer.o
+ .debug_loc     0x0000ad86       0x9c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+ .debug_loc     0x0000ae22      0x15b E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+ .debug_loc     0x0000af7d       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_loc     0x0000af9d       0x82 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_loc     0x0000b01f     0x16fb E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x0000c71a       0x20 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+ .debug_loc     0x0000c73a       0x4e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
+ .debug_loc     0x0000c788      0x70f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_loc     0x0000ce97     0x2be4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_loc     0x0000fa7b       0xcb E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x0000fb46      0x5d7 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_loc     0x0001011d      0x18c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x000102a9      0x14e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
+ .debug_loc     0x000103f7     0x2c0c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_loc     0x00013003       0xaa E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+ .debug_loc     0x000130ad      0xd23 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+ .debug_loc     0x00013dd0      0xbde E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+ .debug_loc     0x000149ae      0x300 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
 
 .debug_aranges  0x00000000     0x1888
  .debug_aranges
@@ -12908,7 +12902,7 @@ OUTPUT(RdtBLE.elf elf32-littlearm)
  .debug_macro   0x00023bf8      0x6d2 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
  .debug_macro   0x000242ca      0x2e1 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
 
-.debug_line     0x00000000    0x1da6d
+.debug_line     0x00000000    0x1da64
  .debug_line    0x00000000      0x2aa ArduinoBLE/BLEAttribute.o
  .debug_line    0x000002aa      0x46b ArduinoBLE/BLECharacteristic.o
  .debug_line    0x00000715      0xd22 ArduinoBLE/BLEDevice.o
@@ -12926,33 +12920,33 @@ OUTPUT(RdtBLE.elf elf32-littlearm)
  .debug_line    0x00009a55      0xfcc ArduinoBLE/utility/HCI.o
  .debug_line    0x0000aa21      0xcdf ArduinoBLE/utility/HCIUartTransport.o
  .debug_line    0x0000b700      0xcd2 ArduinoBLE/utility/L2CAPSignaling.o
- .debug_line    0x0000c3d2      0xd39 Sketch.o
- .debug_line    0x0000d10b      0xd7e System/BatteryService.o
- .debug_line    0x0000de89      0xe02 System/CSCService.o
- .debug_line    0x0000ec8b      0xd51 System/DIService.o
- .debug_line    0x0000f9dc      0xe06 System/LedService.o
- .debug_line    0x000107e2      0xd7c System/Tc5Timer.o
- .debug_line    0x0001155e      0x764 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
- .debug_line    0x00011cc2      0x858 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
- .debug_line    0x0001251a       0x63 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_line    0x0001257d      0xb52 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_line    0x000130cf      0x383 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_line    0x00013452      0xe67 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x000142b9      0xbab E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
- .debug_line    0x00014e64      0x786 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
- .debug_line    0x000155ea      0xd86 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_line    0x00016370     0x166f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_line    0x000179df      0x83e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x0001821d      0xa46 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_line    0x00018c63      0x82f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_line    0x00019492      0x8cb E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
- .debug_line    0x00019d5d      0xe84 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_line    0x0001abe1      0xb85 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
- .debug_line    0x0001b766      0xe93 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
- .debug_line    0x0001c5f9      0xe0b E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
- .debug_line    0x0001d404      0x669 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_line    0x0000c3d2      0xd3b Sketch.o
+ .debug_line    0x0000d10d      0xd7c System/BatteryService.o
+ .debug_line    0x0000de89      0xdff System/CSCService.o
+ .debug_line    0x0000ec88      0xd51 System/DIService.o
+ .debug_line    0x0000f9d9      0xe00 System/LedService.o
+ .debug_line    0x000107d9      0xd7c System/Tc5Timer.o
+ .debug_line    0x00011555      0x764 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+ .debug_line    0x00011cb9      0x858 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+ .debug_line    0x00012511       0x63 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x00012574      0xb52 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x000130c6      0x383 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_line    0x00013449      0xe67 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x000142b0      0xbab E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+ .debug_line    0x00014e5b      0x786 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
+ .debug_line    0x000155e1      0xd86 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_line    0x00016367     0x166f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_line    0x000179d6      0x83e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x00018214      0xa46 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_line    0x00018c5a      0x82f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00019489      0x8cb E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
+ .debug_line    0x00019d54      0xe84 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_line    0x0001abd8      0xb85 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+ .debug_line    0x0001b75d      0xe93 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+ .debug_line    0x0001c5f0      0xe0b E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+ .debug_line    0x0001d3fb      0x669 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
 
-.debug_str      0x00000000    0x8926c
+.debug_str      0x00000000    0x89239
  .debug_str     0x00000000     0x3930 ArduinoBLE/BLEAttribute.o
                                0x3ace (size before relaxing)
  .debug_str     0x00003930      0xa7e ArduinoBLE/BLECharacteristic.o
@@ -12989,56 +12983,56 @@ OUTPUT(RdtBLE.elf elf32-littlearm)
                               0x7b1e5 (size before relaxing)
  .debug_str     0x000826bc      0x4e8 Sketch.o
                               0x7b32e (size before relaxing)
- .debug_str     0x00082ba4      0x1ad System/BatteryService.o
-                              0x7b569 (size before relaxing)
- .debug_str     0x00082d51      0x2d4 System/CSCService.o
-                              0x7bc08 (size before relaxing)
- .debug_str     0x00083025       0x4b System/DIService.o
+ .debug_str     0x00082ba4      0x198 System/BatteryService.o
+                              0x7b532 (size before relaxing)
+ .debug_str     0x00082d3c      0x2df System/CSCService.o
+                              0x7bc13 (size before relaxing)
+ .debug_str     0x0008301b       0x4b System/DIService.o
                               0x7bd52 (size before relaxing)
- .debug_str     0x00083070      0x166 System/LedService.o
-                              0x7b84c (size before relaxing)
- .debug_str     0x000831d6      0x57f System/Tc5Timer.o
+ .debug_str     0x00083066      0x166 System/LedService.o
+                              0x7b836 (size before relaxing)
+ .debug_str     0x000831cc      0x57f System/Tc5Timer.o
                               0x7b6d9 (size before relaxing)
- .debug_str     0x00083755      0x686 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+ .debug_str     0x0008374b      0x686 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
                               0x6ffc7 (size before relaxing)
- .debug_str     0x00083ddb       0x9e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+ .debug_str     0x00083dd1       0x9e E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
                               0x74cbd (size before relaxing)
- .debug_str     0x00083e79       0x69 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x00083e6f       0x2b E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
                                0x25dc (size before relaxing)
- .debug_str     0x00083ee2       0x75 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00083e9a       0x75 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
                               0x7ac6b (size before relaxing)
- .debug_str     0x00083f57       0x44 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_str     0x00083f0f       0x44 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
                                0x7447 (size before relaxing)
- .debug_str     0x00083f9b      0x36d E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_str     0x00083f53      0x382 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                               0x7bb96 (size before relaxing)
- .debug_str     0x00084308      0x1f6 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+ .debug_str     0x000842d5      0x1f6 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
                               0x7aef9 (size before relaxing)
- .debug_str     0x000844fe      0x877 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
+ .debug_str     0x000844cb      0x877 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
                               0x707e0 (size before relaxing)
- .debug_str     0x00084d75      0x7a0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_str     0x00084d42      0x7a0 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
                               0x7c551 (size before relaxing)
- .debug_str     0x00085515     0x2ac8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_str     0x000854e2     0x2ac8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
                               0x7e460 (size before relaxing)
- .debug_str     0x00087fdd      0x158 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x00087faa      0x158 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                               0x7559c (size before relaxing)
- .debug_str     0x00088135      0x608 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_str     0x00088102      0x608 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
                               0x76c67 (size before relaxing)
- .debug_str     0x0008873d       0x32 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x0008870a       0x32 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                               0x74dc3 (size before relaxing)
- .debug_str     0x0008876f       0x2a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
+ .debug_str     0x0008873c       0x2a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
                               0x76035 (size before relaxing)
- .debug_str     0x00088799      0x361 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_str     0x00088766      0x361 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                                0xab20 (size before relaxing)
- .debug_str     0x00088afa      0x23f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+ .debug_str     0x00088ac7      0x23f E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
                               0x7b7fe (size before relaxing)
- .debug_str     0x00088d39      0x18a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+ .debug_str     0x00088d06      0x18a E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
                               0x75fb0 (size before relaxing)
- .debug_str     0x00088ec3      0x366 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+ .debug_str     0x00088e90      0x366 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
                               0x7c740 (size before relaxing)
- .debug_str     0x00089229       0x43 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_str     0x000891f6       0x43 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
                                0xc53e (size before relaxing)
 
-.debug_frame    0x00000000     0x4c40
+.debug_frame    0x00000000     0x4c3c
  .debug_frame   0x00000000       0xc8 ArduinoBLE/BLEAttribute.o
  .debug_frame   0x000000c8      0x1ec ArduinoBLE/BLECharacteristic.o
  .debug_frame   0x000002b4      0x148 ArduinoBLE/BLEDevice.o
@@ -13060,71 +13054,71 @@ OUTPUT(RdtBLE.elf elf32-littlearm)
  .debug_frame   0x00001ed0       0xa4 System/BatteryService.o
  .debug_frame   0x00001f74       0xe8 System/CSCService.o
  .debug_frame   0x0000205c       0xa4 System/DIService.o
- .debug_frame   0x00002100      0x168 System/LedService.o
- .debug_frame   0x00002268      0x118 System/Tc5Timer.o
- .debug_frame   0x00002380       0x7c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
- .debug_frame   0x000023fc       0x78 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
- .debug_frame   0x00002474       0x40 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_frame   0x000024b4       0x38 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x000024ec       0x70 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_frame   0x0000255c      0x318 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x00002874       0x48 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
- .debug_frame   0x000028bc       0x2c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
- .debug_frame   0x000028e8      0x1f8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
- .debug_frame   0x00002ae0      0x498 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
- .debug_frame   0x00002f78       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x00002fa0       0x90 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_frame   0x00003030       0x64 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_frame   0x00003094       0x30 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
- .debug_frame   0x000030c4      0x884 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_frame   0x00003948       0x7c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
- .debug_frame   0x000039c4      0x448 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
- .debug_frame   0x00003e0c      0x1c4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
- .debug_frame   0x00003fd0       0xc8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
- .debug_frame   0x00004098       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libstdc++_nano.a(atexit_arm.o)
- .debug_frame   0x000040c0       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
- .debug_frame   0x000040e0       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
- .debug_frame   0x00004100       0x3c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(adddf3.o)
- .debug_frame   0x0000413c       0x3c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
- .debug_frame   0x00004178       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
- .debug_frame   0x000041b0       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
- .debug_frame   0x000041e8       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
- .debug_frame   0x00004220       0x3c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
- .debug_frame   0x0000425c       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
- .debug_frame   0x00004294       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(unorddf2.o)
- .debug_frame   0x000042c0       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
- .debug_frame   0x000042ec       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
- .debug_frame   0x00004314       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-cxa_atexit.o)
- .debug_frame   0x00004340       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000436c       0x74 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-locale.o)
- .debug_frame   0x000043e0       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-malloc.o)
- .debug_frame   0x00004420       0x44 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mbtowc_r.o)
- .debug_frame   0x00004464       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memcmp.o)
- .debug_frame   0x00004490       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x000044b8       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x000044e0       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x00004500       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000452c       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00004558       0x70 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
- .debug_frame   0x000045c8       0x54 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000461c       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-realloc.o)
- .debug_frame   0x00004644       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00004670       0x50 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-sprintf.o)
- .debug_frame   0x000046c0       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strcpy.o)
- .debug_frame   0x000046e0       0x88 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strtoul.o)
- .debug_frame   0x00004768       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-wctomb_r.o)
- .debug_frame   0x000047a0       0x54 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-dtoa.o)
- .debug_frame   0x000047f4       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-localeconv.o)
- .debug_frame   0x00004834       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x00004854       0x30 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x00004884      0x238 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
- .debug_frame   0x00004abc       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-callocr.o)
- .debug_frame   0x00004ae8       0x30 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00004b18       0x74 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x00004b8c       0x48 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-reent.o)
- .debug_frame   0x00004bd4       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x00004bf4       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
- .debug_frame   0x00004c20       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(sbrk.o)
+ .debug_frame   0x00002100      0x164 System/LedService.o
+ .debug_frame   0x00002264      0x118 System/Tc5Timer.o
+ .debug_frame   0x0000237c       0x7c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(cortex_handlers.o)
+ .debug_frame   0x000023f8       0x78 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(delay.o)
+ .debug_frame   0x00002470       0x40 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x000024b0       0x38 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x000024e8       0x70 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_frame   0x00002558      0x318 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x00002870       0x48 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Reset.o)
+ .debug_frame   0x000028b8       0x2c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(startup.o)
+ .debug_frame   0x000028e4      0x1f8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
+ .debug_frame   0x00002adc      0x498 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(USBCore.o)
+ .debug_frame   0x00002f74       0x28 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x00002f9c       0x90 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_frame   0x0000302c       0x64 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x00003090       0x30 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(wiring_private.o)
+ .debug_frame   0x000030c0      0x884 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_frame   0x00003944       0x7c E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(variant.o)
+ .debug_frame   0x000039c0      0x448 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(SERCOM.o)
+ .debug_frame   0x00003e08      0x1c4 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Uart.o)
+ .debug_frame   0x00003fcc       0xc8 E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(PluggableUSB.o)
+ .debug_frame   0x00004094       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libstdc++_nano.a(atexit_arm.o)
+ .debug_frame   0x000040bc       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x000040dc       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(_divsi3.o)
+ .debug_frame   0x000040fc       0x3c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(adddf3.o)
+ .debug_frame   0x00004138       0x3c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(divdf3.o)
+ .debug_frame   0x00004174       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(eqdf2.o)
+ .debug_frame   0x000041ac       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(gedf2.o)
+ .debug_frame   0x000041e4       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(ledf2.o)
+ .debug_frame   0x0000421c       0x3c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(muldf3.o)
+ .debug_frame   0x00004258       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(subdf3.o)
+ .debug_frame   0x00004290       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(unorddf2.o)
+ .debug_frame   0x000042bc       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(fixdfsi.o)
+ .debug_frame   0x000042e8       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatunsidf.o)
+ .debug_frame   0x00004310       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_frame   0x0000433c       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00004368       0x74 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-locale.o)
+ .debug_frame   0x000043dc       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x0000441c       0x44 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x00004460       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memcmp.o)
+ .debug_frame   0x0000448c       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000044b4       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x000044dc       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x000044fc       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00004528       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00004554       0x70 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .debug_frame   0x000045c4       0x54 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00004618       0x28 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-realloc.o)
+ .debug_frame   0x00004640       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000466c       0x50 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x000046bc       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strcpy.o)
+ .debug_frame   0x000046dc       0x88 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-strtoul.o)
+ .debug_frame   0x00004764       0x38 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-wctomb_r.o)
+ .debug_frame   0x0000479c       0x54 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-dtoa.o)
+ .debug_frame   0x000047f0       0x40 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-localeconv.o)
+ .debug_frame   0x00004830       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00004850       0x30 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00004880      0x238 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-mprec.o)
+ .debug_frame   0x00004ab8       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-callocr.o)
+ .debug_frame   0x00004ae4       0x30 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00004b14       0x74 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x00004b88       0x48 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00004bd0       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00004bf0       0x2c e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m\libgcc.a(floatsidf.o)
+ .debug_frame   0x00004c1c       0x20 e:/atmelstudio7/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libnosys.a(sbrk.o)
 
 Cross Reference Table
 
@@ -13849,7 +13843,6 @@ Print::print(String const&)                       E:\KproEmbedded\RdtArduinoBLE\
 Print::print(__FlashStringHelper const*)          E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
 Print::print(char const*)                         E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                                                   System/LedService.o
-                                                  System/BatteryService.o
                                                   Sketch.o
                                                   ArduinoBLE/utility/HCI.o
 Print::print(char)                                E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
@@ -13870,12 +13863,10 @@ Print::println(String const&)                     E:\KproEmbedded\RdtArduinoBLE\
                                                   Sketch.o
 Print::println(__FlashStringHelper const*)        E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
 Print::println(char const*)                       E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                                                  System/LedService.o
                                                   Sketch.o
 Print::println(char)                              E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
 Print::println(double, int)                       E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
 Print::println(int, int)                          E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                                                  System/BatteryService.o
 Print::println(long, int)                         E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
 Print::println(unsigned char, int)                E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                                                   ArduinoBLE/utility/HCI.o
@@ -13981,7 +13972,6 @@ Serial2                                           E:\KproEmbedded\RdtArduinoBLE\
                                                   ArduinoBLE/utility/HCIUartTransport.o
 SerialUSB                                         E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
                                                   System/LedService.o
-                                                  System/BatteryService.o
                                                   Sketch.o
 Serial_::available()                              E:\KproEmbedded\RdtArduinoBLE\RdtArduinoBLE\ArduinoCore\Debug\libArduinoCore.a(CDC.o)
                                                   Sketch.o
